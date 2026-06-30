@@ -21,7 +21,7 @@ export const SITE = {
   tagline: 'Machine Learning for Health',
   dates: 'December 6–7, 2026',
   location: 'Sydney, Australia',
-  email: 'info@ml4h.cc',
+  email: 'ml4h@ahli.cc',
 };
 
 export type NavChild = { label: string; path: string };

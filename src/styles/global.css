@@ -718,6 +718,12 @@ a:hover { color: var(--teal); }
 .faq-item h3 { margin: 0 0 .4rem; font-size: 1.1rem; }
 .faq-item p { margin-bottom: 0; }
 
+/* ---- Dates table (call for papers) --------------------------------------- */
+.dates-table { width: 100%; border-collapse: collapse; margin: 1rem 0 1.5rem; }
+.dates-table td { padding: .6rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--ink-soft); }
+.dates-table td:first-child { white-space: nowrap; padding-right: 1.5rem; color: var(--ink); width: 9rem; }
+.dates-table tr:last-child td { border-bottom: none; }
+
 /* ---- CTA strip ----------------------------------------------------------- */
 .cta {
   background: linear-gradient(135deg, #2a3270, #404c98 70%, #0e6f97);

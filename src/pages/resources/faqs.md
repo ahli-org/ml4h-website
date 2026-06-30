@@ -1,6 +1,12 @@
-<!DOCTYPE html><html lang="en"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/ml4h-website/favicon.svg"><title>FAQs · ML4H 2026</title><meta name="description" content="ML4H 2026 — Machine Learning for Health. December 6–7, 2026."><meta property="og:title" content="FAQs · ML4H 2026"><meta property="og:description" content="ML4H 2026 — Machine Learning for Health. December 6–7, 2026."><meta property="og:type" content="website"><meta name="theme-color" content="#404c98"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/ml4h-website/_astro/BaseLayout.7_mw42kk.css"></head> <body> <a class="skip-link" href="#main">Skip to content</a> <!-- Mobile-only top bar --> <div class="mobile-bar"> <a href="/ml4h-website/" class="mobile-brand" style="text-decoration:none"> <span class="mobile-brand-text">ML4H <span class="mobile-brand-year">2026</span></span> </a> <button class="nav-toggle" id="navToggle" aria-controls="sidebar" aria-expanded="false">
-Menu
-</button> </div> <div class="scrim" id="scrim" hidden></div> <aside class="sidebar" id="sidebar"> <a class="brand" href="/ml4h-website/"> <span class="brand-wordmark">ML4H <span class="brand-year">2026</span></span> <span class="brand-sub">Machine Learning for Health</span> </a> <nav class="side-nav" aria-label="Primary"> <div class="nav-group"> <a href="/ml4h-website/" class="nav-top">Home</a>  </div><div class="nav-group"> <a href="/ml4h-website/about/" class="nav-top">About</a> <div class="nav-children"> <a href="/ml4h-website/about/history/" class="nav-child">History</a><a href="/ml4h-website/about/past-events/" class="nav-child">Past Events</a><a href="/ml4h-website/about/proceedings/" class="nav-child">Proceedings</a><a href="/ml4h-website/about/organizing-committee/" class="nav-child">Organizing Committee</a><a href="/ml4h-website/about/governing-board/" class="nav-child">Governing Board</a> </div> </div><div class="nav-group"> <a href="/ml4h-website/sponsors/" class="nav-top">Sponsors</a>  </div><div class="nav-group"> <a href="/ml4h-website/submit/" class="nav-top">Submit</a> <div class="nav-children"> <a href="/ml4h-website/submit/call-for-papers/" class="nav-child">Call for Papers</a><a href="/ml4h-website/submit/call-for-demonstrations/" class="nav-child">Call for Demonstrations</a><a href="/ml4h-website/submit/mentorship-programs/" class="nav-child">Mentorship Programs</a> </div> </div><div class="nav-group"> <a href="/ml4h-website/attend/" class="nav-top">Attend</a> <div class="nav-children"> <a href="/ml4h-website/attend/schedule/" class="nav-child">Schedule</a><a href="/ml4h-website/attend/speakers/" class="nav-child">Speakers</a><a href="/ml4h-website/attend/research-roundtables/" class="nav-child">Research Roundtables</a><a href="/ml4h-website/attend/plan-your-visit/" class="nav-child">Plan Your Visit</a> </div> </div><div class="nav-group nav-group--active"> <a href="/ml4h-website/resources/" class="nav-top">Resources</a> <div class="nav-children"> <a href="/ml4h-website/resources/writing-guidelines/" class="nav-child">Writing Guidelines</a><a href="/ml4h-website/resources/reviewing-guidelines/" class="nav-child">Reviewing Guidelines</a><a href="/ml4h-website/resources/community-guidelines/" class="nav-child">Community Guidelines</a><a href="/ml4h-website/resources/code-of-conduct/" class="nav-child">Code of Conduct</a><a href="/ml4h-website/resources/review-policy/" class="nav-child">Review Policy</a><a href="/ml4h-website/resources/publication-ethics/" class="nav-child">Publication Ethics</a><a href="/ml4h-website/resources/faqs/" class="nav-child" aria-current="page">FAQs</a> </div> </div> </nav> <div class="side-section"> <h2>Contact</h2> <div class="side-contact"> <a href="mailto:info@ml4h.cc">info@ml4h.cc</a> </div> </div> <div class="side-foot"> <p> <strong>December 6–7, 2026</strong><br> Sydney, Australia </p> </div> </aside> <main id="main" class="content">   <header class="hero"> <div class="hero-inner"> <p class="hero-eyebrow">Resources · FAQs</p> <h1>FAQs</h1> <p class="hero-lead">Common questions about submitting to and attending ML4H 2026.</p>  </div> </header> <section class="section"> <div class="wrap"> <h2 id="paper-submissions">Paper Submissions</h2>
+---
+layout: ../../layouts/MarkdownLayout.astro
+title: FAQs
+eyebrow: Resources · FAQs
+lead: Common questions about submitting to and attending ML4H 2026.
+---
+
+## Paper Submissions
+
 <div class="faq">
 <div class="faq-item">
 <h3>What constitutes a submission?</h3>
@@ -13,6 +19,7 @@ Menu
   Submission Instructions."
 </p>
 </div>
+
 <div class="faq-item">
 <h3>What does "anonymizing" the PDF mean, exactly?</h3>
 <p>
@@ -22,6 +29,7 @@ Menu
   submissions. Please reach out if you have any additional questions!
 </p>
 </div>
+
 <div class="faq-item">
 <h3>Is my work a good fit for the venue?</h3>
 <p>
@@ -31,6 +39,7 @@ Menu
   submission areas and what we're looking for.
 </p>
 </div>
+
 <div class="faq-item">
 <h3>I would like my paper to be considered for the Findings track as an alternate for the Proceedings track. Should I format my submission to 4 pages?</h3>
 <p>
@@ -44,6 +53,7 @@ Menu
   Decisions for both tracks will be released simultaneously."
 </p>
 </div>
+
 <div class="faq-item">
 <h3>Do we need to follow ML4H paper formatting guidelines or can we use alternative formats?</h3>
 <p>
@@ -52,6 +62,7 @@ Menu
   year's edition and not the old templates related to previous editions.
 </p>
 </div>
+
 <div class="faq-item">
 <h3>Can I change the author list after submitting?</h3>
 <p>
@@ -64,7 +75,9 @@ Menu
 </p>
 </div>
 </div>
-<h2 id="reviewer-roles">Reviewer Roles</h2>
+
+## Reviewer Roles
+
 <div class="faq">
 <div class="faq-item">
 <h3>I'm interested in reviewing for ML4H — who should I contact?</h3>
@@ -72,6 +85,7 @@ Menu
   Thanks for your interest! Please reach out to us at <a href="mailto:ml4h@ahli.cc">ml4h@ahli.cc</a>.
 </p>
 </div>
+
 <div class="faq-item">
 <h3>When I try to accept my reviewer invitation on OpenReview, I get an error. Any tips?</h3>
 <p>
@@ -80,6 +94,7 @@ Menu
   <a href="mailto:info@openreview.net">info@openreview.net</a> for help troubleshooting.
 </p>
 </div>
+
 <div class="faq-item">
 <h3>Will you allow reviewers to bid on papers?</h3>
 <p>
@@ -89,12 +104,15 @@ Menu
   submissions.
 </p>
 </div>
+
 <div class="faq-item">
 <h3>May individuals participate as a reviewer AND submit a paper for consideration?</h3>
 <p>Yes, you may submit a paper and participate as a reviewer.</p>
 </div>
 </div>
-<h2 id="mentorship-programs">Mentorship Programs</h2>
+
+## Mentorship Programs
+
 <div class="faq">
 <div class="faq-item">
 <h3>Is attendance at the in-person event required to register for the mentorship programs?</h3>
@@ -105,7 +123,9 @@ Menu
 </p>
 </div>
 </div>
-<h2 id="symposium-registration">Symposium Registration</h2>
+
+## Symposium Registration
+
 <div class="faq">
 <div class="faq-item">
 <h3>Is ML4H registration distinct from NeurIPS registration?</h3>
@@ -114,6 +134,7 @@ Menu
   Fall for those who are not submitting to the current paper or demo tracks.
 </p>
 </div>
+
 <div class="faq-item">
 <h3>Will you be offering travel grants to authors of accepted papers?</h3>
 <p>
@@ -122,18 +143,18 @@ Menu
   released before that date.
 </p>
 </div>
+
 <div class="faq-item">
 <h3>Will there be a virtual option to attend ML4H this year?</h3>
 <p>Unfortunately, there are currently no plans to host an online mode of attendance.</p>
 </div>
 </div>
+
 <div class="callout" style="margin-top:2rem">
   <p>Don't see your question here? Reach out at <a href="mailto:ml4h@ahli.cc">ml4h@ahli.cc</a>.</p>
 </div>
+
 <div class="btn-row">
   <a class="btn btn-outline" href="../../submit/call-for-papers/">Call for Papers</a>
   <a class="btn btn-outline" href="../">Back to Resources</a>
-</div> </div> </section>  <footer class="site-footer"> <div class="wrap"> <p> <strong>6th ML4H Symposium</strong> · Machine Learning for Health
-</p> <p>
-© 2026 ML4H. Built with <a href="https://astro.build">Astro</a>.
-</p> </div> </footer> </main> <script type="module">const c=document.body,d=document.getElementById("navToggle"),n=document.getElementById("scrim");function t(e){c.classList.toggle("nav-open",e),d?.setAttribute("aria-expanded",String(e)),n&&(n.hidden=!e)}d?.addEventListener("click",()=>t(!c.classList.contains("nav-open")));n?.addEventListener("click",()=>t(!1));document.addEventListener("keydown",e=>{e.key==="Escape"&&t(!1)});document.querySelectorAll("#sidebar a").forEach(e=>e.addEventListener("click",()=>t(!1)));</script> </body> </html>
+</div>

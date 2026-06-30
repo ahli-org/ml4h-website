@@ -1,0 +1,15 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+
+const { frontmatter } = Astro.props;
+const { title, eyebrow, lead } = frontmatter;
+---
+<BaseLayout title={title}>
+  <Hero eyebrow={eyebrow} title={title} lead={lead} />
+  <section class="section">
+    <div class="wrap">
+      <slot />
+    </div>
+  </section>
+</BaseLayout>
