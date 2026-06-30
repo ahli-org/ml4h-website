@@ -278,7 +278,7 @@ medicine, and the humanities can be crucial.
 
 ## Author Response Period
 
-Initial reviews will be released on October 3rd. From October 3rd to October 10th, 11:59 PM AoE,
+Initial reviews will be released on October 5th. From October 5th to October 12th, 11:59 PM AoE,
 authors can submit responses to the reviews. Author responses may address any aspect of the reviews,
 including by adding specific types of new experimental results as requested by the reviewers, e.g.
 missing baselines. No conceptual changes to the original formulation are allowed beyond clarifications.
