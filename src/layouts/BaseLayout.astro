@@ -1,0 +1,93 @@
+---
+import '../styles/global.css';
+import Sidebar from '../components/Sidebar.astro';
+import ReviewNotice from '../components/ReviewNotice.astro';
+import { SITE, url, REVIEW_MODE } from '../lib/site';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const {
+  title,
+  description = `ML4H 2026 — Machine Learning for Health. ${SITE.dates}.`,
+} = Astro.props;
+
+const fullTitle = `${title} · ${SITE.shortName} ${SITE.year}`;
+const year = new Date().getFullYear();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#404c98" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Mobile-only top bar -->
+    <div class="mobile-bar">
+      <a href={url('')} class="mobile-brand" style="text-decoration:none">
+        <span class="mobile-brand-text">ML4H <span class="mobile-brand-year">{SITE.year}</span></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-controls="sidebar" aria-expanded="false">
+        Menu
+      </button>
+    </div>
+    <div class="scrim" id="scrim" hidden></div>
+
+    <Sidebar />
+
+    <main id="main" class="content">
+      {REVIEW_MODE && <ReviewNotice />}
+      <slot />
+
+      <footer class="site-footer">
+        <div class="wrap">
+          <p>
+            <strong>{SITE.name}</strong> · Machine Learning for Health
+          </p>
+          <p>
+            © {year} ML4H. Built with <a href="https://astro.build">Astro</a>.
+          </p>
+        </div>
+      </footer>
+    </main>
+
+    <script>
+      const body = document.body;
+      const toggle = document.getElementById('navToggle');
+      const scrim = document.getElementById('scrim');
+
+      function setOpen(open: boolean) {
+        body.classList.toggle('nav-open', open);
+        toggle?.setAttribute('aria-expanded', String(open));
+        if (scrim) scrim.hidden = !open;
+      }
+
+      toggle?.addEventListener('click', () =>
+        setOpen(!body.classList.contains('nav-open'))
+      );
+      scrim?.addEventListener('click', () => setOpen(false));
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') setOpen(false);
+      });
+      document
+        .querySelectorAll('#sidebar a')
+        .forEach((a) => a.addEventListener('click', () => setOpen(false)));
+    </script>
+  </body>
+</html>

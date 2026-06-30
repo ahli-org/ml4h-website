@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { url } from '../lib/site';
+
+const sections = [
+  { label: 'Schedule', path: 'attend/schedule', desc: 'Full program schedule including talks, posters, and special sessions.' },
+  { label: 'Speakers', path: 'attend/speakers', desc: 'Invited keynote and featured speakers for ML4H 2026.' },
+  { label: 'Research Roundtables', path: 'attend/research-roundtables', desc: 'Small-group discussions on focused ML4H topics.' },
+  { label: 'Plan Your Visit', path: 'attend/plan-your-visit', desc: 'Venue, travel, and accommodation information.' },
+];
+---
+<BaseLayout title="Attend">
+  <Hero
+    eyebrow="Attend"
+    title="Attend ML4H 2026"
+    lead="Join us for a day of research talks, poster sessions, roundtables, and community building."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <div class="card-grid">
+        {sections.map((s) => (
+          <a href={url(s.path)} class="card" style="text-decoration:none;color:inherit">
+            <h3>{s.label}</h3>
+            <p>{s.desc}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

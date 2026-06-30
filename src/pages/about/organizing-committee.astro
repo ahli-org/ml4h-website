@@ -1,0 +1,157 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+
+const base = import.meta.env.BASE_URL;
+
+const committee = [
+  {
+    name: 'Elizabeth Healey',
+    affil: 'Boston Children\'s Hospital',
+    role: 'General Chair',
+    photo: 'people/elizabeth-healey.jpg',
+    web: 'https://elizabethhealey.com',
+  },
+  {
+    name: 'Shengpu Tang',
+    affil: 'Emory University',
+    role: 'General Chair',
+    photo: 'people/shengpu-tang.jpg',
+    web: 'https://shengpu-tang.me/',
+  },
+  {
+    name: 'Ayush Noori',
+    affil: 'University of Oxford',
+    role: 'Program Chair',
+    photo: 'people/ayush-noori.jpg',
+    web: 'https://www.ayushnoori.com',
+  },
+  {
+    name: 'Aishwarya Mandyam',
+    affil: 'Sprinter Health',
+    role: 'Program Chair',
+    photo: 'people/aishwarya-mandyam.jpg',
+    web: 'https://aishwaryamandyam.com/',
+  },
+  {
+    name: 'Qixuan Hu',
+    affil: 'The University of Sydney',
+    role: 'Program',
+    photo: 'people/qixuan-hu.jpg',
+    web: 'https://linkedin.com/in/qixuan-hu-a764b5259',
+  },
+  {
+    name: 'Stefan Hegselmann',
+    affil: 'Charité and BIH, Berlin',
+    role: 'Workflow & Proceedings',
+    photo: 'people/stefan-hegselmann.jpg',
+    web: 'https://shegselmann.com/',
+  },
+  {
+    name: 'Yidi Huang',
+    affil: 'University of Pennsylvania',
+    role: 'Workflow Chair',
+    photo: 'people/yidi-huang.jpg',
+    web: 'https://linkedin.com/in/huangy6',
+  },
+  {
+    name: 'Yupeng Zhang',
+    affil: 'The University of Sydney',
+    role: 'Logistics Chair',
+    photo: 'people/yupeng-zhang.jpg',
+    web: 'https://ypz404.github.io/',
+  },
+  {
+    name: 'Lex (Lexuan) Shao',
+    affil: 'The University of Sydney',
+    role: 'Logistics Co-Chair',
+    photo: 'people/lex-shao.jpg',
+    web: null,
+  },
+  {
+    name: 'Xumou Zhang',
+    affil: null,
+    role: 'Logistics Co-Chair',
+    photo: 'people/xumou-zhang.jpg',
+    web: 'https://www.linkedin.com/in/xumouzhang/',
+  },
+  {
+    name: 'Maxwell Xu',
+    affil: 'Google',
+    role: 'Finance Co-Chair',
+    photo: 'people/maxwell-xu.jpg',
+    web: 'https://maxxu05.github.io/',
+  },
+  {
+    name: 'Amin Adibi',
+    affil: 'University of British Columbia',
+    role: 'Communications Chair',
+    photo: 'people/amin-adibi.jpg',
+    web: 'https://www.adibi.ca',
+  },
+  {
+    name: 'Simon A. Lee',
+    affil: 'UCLA',
+    role: 'Outreach',
+    photo: 'people/simon-lee.jpg',
+    web: 'https://simon-a-lee.github.io/',
+  },
+  {
+    name: 'Teya S. Bergamaschi',
+    affil: 'MIT',
+    role: 'Outreach Chair',
+    photo: 'people/teya-bergamaschi.jpg',
+    web: 'https://teyaberg.github.io/',
+  },
+  {
+    name: 'Frances Dean',
+    affil: 'UC Berkeley & UCSF',
+    role: 'Outreach',
+    photo: 'people/frances-dean.jpg',
+    web: 'https://frances-dean.github.io/',
+  },
+];
+
+function initials(name: string) {
+  return name.split(' ').filter(Boolean).map(w => w[0]).slice(0, 2).join('');
+}
+---
+<BaseLayout title="Organizing Committee">
+  <Hero
+    eyebrow="About · Organizing Committee"
+    title="Organizing Committee"
+    lead="The team behind ML4H 2026."
+  />
+
+  <section class="section">
+    <div class="wrap wrap--wide">
+      <div class="people-grid people-grid--profiles">
+        {committee.map((person) => (
+          <div class="profile-card">
+            <div class="profile-thumb">
+              {person.photo
+                ? <img src={`${base}${person.photo}`} alt={person.name} loading="lazy" />
+                : <div class="profile-thumb-initials">{initials(person.name)}</div>
+              }
+            </div>
+            <div class="profile-card-body">
+              {person.web
+                ? <a href={person.web} class="profile-card-link" target="_blank" rel="noopener">
+                    <h3>{person.name}</h3>
+                  </a>
+                : <h3>{person.name}</h3>
+              }
+              <p class="profile-card-tagline">{person.role}</p>
+              {person.affil && <p class="profile-card-affil">{person.affil}</p>}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="btn-row" style="margin-top:2rem">
+        <a class="btn btn-outline" href={url('about')}>Back to About</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

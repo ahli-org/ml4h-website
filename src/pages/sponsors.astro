@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { url } from '../lib/site';
+
+const tiers = [
+  {
+    tier: 'diamond',
+    label: 'Diamond',
+    sponsors: [] as { name: string; url: string; logo?: string; blurb?: string }[],
+  },
+  {
+    tier: 'gold',
+    label: 'Gold',
+    sponsors: [] as { name: string; url: string; logo?: string; blurb?: string }[],
+  },
+  {
+    tier: 'silver',
+    label: 'Silver',
+    sponsors: [] as { name: string; url: string; logo?: string; blurb?: string }[],
+  },
+];
+
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="Sponsors">
+  <Hero
+    eyebrow="Sponsors"
+    title="With thanks to our sponsors"
+    lead="ML4H 2026 is made possible by the generous support of our sponsors. We are grateful for their commitment to advancing machine learning for health."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      {tiers.map((t) => (
+        <div class={`sponsor-tier sponsor-tier--${t.tier}`}>
+          <div class="sponsor-tier-badge">{t.label}</div>
+          {t.sponsors.length > 0 ? (
+            <div class="sponsor-grid">
+              {t.sponsors.map((s) => (
+                <article class="sponsor-card">
+                  <a href={s.url} rel="noopener" target="_blank" aria-label={s.name}>
+                    {s.logo
+                      ? <img class="sponsor-logo" src={`${base}${s.logo}`} alt={`${s.name} logo`} loading="lazy" />
+                      : <span class="sponsor-name">{s.name}</span>}
+                  </a>
+                  {s.blurb && <p>{s.blurb}</p>}
+                </article>
+              ))}
+            </div>
+          ) : (
+            <p class="sponsor-placeholder">Sponsor announcements coming soon.</p>
+          )}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Become a sponsor</p>
+      <h2>Support ML4H 2026</h2>
+      <p>
+        Sponsoring ML4H 2026 gives your organization visibility with leading
+        researchers and practitioners in machine learning for health. Sponsors
+        at all tiers receive recognition in conference materials, the website,
+        and during the event.
+      </p>
+      <p>
+        For sponsorship inquiries, please contact us at
+        <a href="mailto:info@ml4h.cc">info@ml4h.cc</a>.
+      </p>
+      <div class="callout">
+        <p>
+          <strong>Sponsorship prospectus coming soon.</strong> Detailed information
+          on sponsorship tiers and benefits will be available shortly.
+          Reach out to express your interest.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

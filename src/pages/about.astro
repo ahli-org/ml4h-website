@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { url } from '../lib/site';
+
+const subpages = [
+  { label: 'History', path: 'about/history', desc: 'The origins and evolution of ML4H over the years.' },
+  { label: 'Past Events', path: 'about/past-events', desc: 'Programs, proceedings, and highlights from previous ML4H events.' },
+  { label: 'Organizing Committee', path: 'about/organizing-committee', desc: 'Meet the team organizing ML4H 2026.' },
+  { label: 'Governing Board', path: 'about/governing-board', desc: 'The board responsible for the long-term direction of ML4H.' },
+];
+---
+<BaseLayout title="About">
+  <Hero
+    eyebrow="About"
+    title="Machine Learning for Health"
+    lead="ML4H is a premier venue for research at the intersection of machine learning and health — fostering rigorous work that advances both the science and its application."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <h2>What is ML4H?</h2>
+      <p>
+        Machine Learning for Health (ML4H) is a leading workshop and community
+        focused on the development, evaluation, and deployment of machine learning
+        methods for health and medicine. Since its inception, ML4H has brought
+        together researchers from machine learning, clinical medicine, public
+        health, and adjacent fields to share work that matters.
+      </p>
+      <p>
+        ML4H 2026 continues this tradition, providing a forum for high-quality
+        original research, critical retrospective analyses, and meaningful
+        discussions about the role of ML in improving health outcomes.
+      </p>
+
+      <h3>Scope</h3>
+      <p>
+        ML4H welcomes contributions across the full spectrum of machine learning
+        for health, including but not limited to:
+      </p>
+      <ul>
+        <li>Clinical prediction and decision support</li>
+        <li>Medical imaging and signal processing</li>
+        <li>Electronic health records and structured clinical data</li>
+        <li>Natural language processing for clinical text</li>
+        <li>Fairness, accountability, and transparency in health AI</li>
+        <li>Evaluation methodology and benchmarks</li>
+        <li>Deployment, real-world implementation, and clinical trials</li>
+        <li>Foundation models and large language models in health</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Explore</p>
+      <h2>More about ML4H</h2>
+      <div class="card-grid">
+        {subpages.map((p) => (
+          <a href={url(p.path)} class="card" style="text-decoration:none;color:inherit">
+            <h3>{p.label}</h3>
+            <p>{p.desc}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

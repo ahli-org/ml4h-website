@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { url } from '../lib/site';
+
+const tracks = [
+  { label: 'Call for Papers', path: 'submit/call-for-papers', desc: 'Submit original research papers on machine learning for health.' },
+  { label: 'Call for Demonstrations', path: 'submit/call-for-demonstrations', desc: 'Showcase a working ML4H system, tool, or prototype.' },
+  { label: 'Mentorship Programs', path: 'submit/mentorship-programs', desc: 'Opportunities for early-career researchers to get feedback and guidance.' },
+];
+---
+<BaseLayout title="Submit">
+  <Hero
+    eyebrow="Submit"
+    title="Submit to ML4H 2026"
+    lead="We invite submissions of research papers, demonstrations, and applications to our mentorship program."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <div class="card-grid">
+        {tracks.map((t) => (
+          <a href={url(t.path)} class="card" style="text-decoration:none;color:inherit">
+            <h3>{t.label}</h3>
+            <p>{t.desc}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

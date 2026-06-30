@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SITE, url } from '../lib/site';
+
+const base = import.meta.env.BASE_URL;
+
+const facts = [
+  { k: 'Dates', v: SITE.dates },
+  { k: 'Location', v: SITE.location },
+  { k: 'Format', v: 'In-person symposium' },
+  { k: 'Edition', v: '6th ML4H Symposium' },
+  { k: 'Submission Portal', v: 'Opening soon' },
+  { k: 'Contact', v: SITE.email },
+];
+
+const tiers = [
+  {
+    tier: 'diamond',
+    label: 'Diamond',
+    sponsors: [],
+  },
+  {
+    tier: 'gold',
+    label: 'Gold',
+    sponsors: [],
+  },
+  {
+    tier: 'silver',
+    label: 'Silver',
+    sponsors: [],
+  },
+];
+---
+<BaseLayout title="Home">
+  <header class="hero hero--home">
+    <div class="hero-inner">
+      <span class="date-badge">{SITE.dates} · {SITE.location}</span>
+      <h1>{SITE.name}</h1>
+      <p class="hero-lead">
+        ML4H is a leading venue for research at the intersection of machine learning
+        and health — bringing together researchers, clinicians, and practitioners
+        to advance the science and practice of ML for health.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href={url('submit/call-for-papers')}>Call for Papers</a>
+        <a class="btn btn-ghost" href={url('about')}>About ML4H</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="banner-strip">
+    <img src={`${base}banner.png`} alt="ML4H 2026 · Sydney, Australia" class="banner-img" />
+  </div>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">At a glance</p>
+      <h2>ML4H 2026</h2>
+      <dl class="facts">
+        {facts.map((f) => (
+          <div class="fact"><dt>{f.k}</dt><dd>{f.v}</dd></div>
+        ))}
+      </dl>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">About the workshop</p>
+      <h2>Advancing machine learning for health</h2>
+      <p class="lead">
+        The ML4H workshop brings together researchers working at the intersection
+        of machine learning and healthcare to present and discuss their work in
+        a focused, collaborative environment.
+      </p>
+      <p>
+        We welcome work across the full spectrum of ML for health: from
+        foundational methods to clinical applications, from electronic health
+        records to medical imaging, from fairness and evaluation to deployment
+        and real-world impact. Both novel research contributions and high-quality
+        retrospective analyses are in scope.
+      </p>
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('about')}>Learn more about ML4H</a>
+        <a class="btn btn-outline" href={url('about/history')}>Conference history</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Sponsors</p>
+      <h2>Our sponsors</h2>
+      <p class="section-lead">
+        ML4H 2026 is made possible by the generous support of our sponsors.
+        Sponsorship information will be announced soon.
+      </p>
+
+      {tiers.map((t) => (
+        <div class={`sponsor-tier sponsor-tier--${t.tier}`}>
+          <div class="sponsor-tier-badge">{t.label}</div>
+          {t.sponsors.length > 0 ? (
+            <div class="sponsor-grid">
+              {t.sponsors.map((s: any) => (
+                <article class="sponsor-card">
+                  <span class="sponsor-name">{s.name}</span>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <p class="sponsor-placeholder">Sponsor announcements coming soon.</p>
+          )}
+        </div>
+      ))}
+
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('sponsors')}>Sponsorship information</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="cta">
+        <h2>Submit your work to ML4H 2026</h2>
+        <p>We invite submissions of research papers, demonstrations, and applications to the ML4H mentorship program.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href={url('submit/call-for-papers')}>Call for Papers</a>
+          <a class="btn btn-ghost" href={url('submit/call-for-demonstrations')}>Call for Demonstrations</a>
+          <a class="btn btn-outline" href={url('resources/writing-guidelines')}>Writing Guidelines</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

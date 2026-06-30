@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+---
+<BaseLayout title="Mentorship Programs">
+  <Hero
+    eyebrow="Submit · Mentorship Programs"
+    title="Mentorship Programs"
+    lead="Opportunities for early-career researchers to receive feedback, guidance, and community support."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <h2>About the mentorship program</h2>
+      <p>
+        ML4H is committed to supporting early-career researchers in machine
+        learning for health. Our mentorship programs connect junior researchers —
+        including PhD students and early postdocs — with experienced mentors from
+        academia and industry.
+      </p>
+
+      <h3>Program details</h3>
+      <p>
+        The ML4H 2026 mentorship program details, including how to apply, eligibility
+        criteria, and the timeline, will be announced here. In previous editions,
+        the program has included:
+      </p>
+      <ul>
+        <li>Paper mentorship: feedback on drafts before the submission deadline</li>
+        <li>Career mentorship: structured conversations with senior researchers</li>
+        <li>Affinity groups: community building among researchers with shared interests</li>
+      </ul>
+
+      <div class="callout">
+        <p>
+          <strong>Applications opening soon.</strong> Check back for details or
+          contact <a href="mailto:info@ml4h.cc">info@ml4h.cc</a> if you'd
+          like to be notified.
+        </p>
+      </div>
+
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('submit')}>Back to Submit</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

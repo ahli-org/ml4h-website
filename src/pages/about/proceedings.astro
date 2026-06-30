@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+
+const proceedings = [
+  { label: 'Proceedings of the 5th Machine Learning for Health Symposium (ML4H 2025), PMLR volume 297', href: 'https://proceedings.mlr.press/v297/' },
+  { label: 'Proceedings of the 4th Machine Learning for Health Symposium (ML4H 2024), PMLR volume 259', href: 'https://proceedings.mlr.press/v259/' },
+  { label: 'Proceedings of the 3rd Machine Learning for Health Symposium (ML4H 2023), PMLR volume 225', href: 'https://proceedings.mlr.press/v225/' },
+  { label: 'Proceedings of the 2nd Machine Learning for Health Symposium (ML4H 2022), PMLR volume 193', href: 'https://proceedings.mlr.press/v193/' },
+  { label: 'Proceedings of the 1st Machine Learning for Health Symposium (ML4H 2021), PMLR volume 158', href: 'https://proceedings.mlr.press/v158/' },
+  { label: 'Proceedings of the Machine Learning for Health NeurIPS Workshop 2020 (ML4H 2020), PMLR volume 136', href: 'https://proceedings.mlr.press/v136/' },
+  { label: 'Proceedings of the Machine Learning for Health NeurIPS Workshop 2019 (ML4H 2019), PMLR volume 116', href: 'https://proceedings.mlr.press/v116/' },
+];
+
+const findings = [
+  { label: 'Collection of the accepted papers for the ML4H 2025 Findings Track', href: 'https://openreview.net/group?id=ML4H/2025/Symposium#tab-accept-poster' },
+  { label: 'Collection of the accepted papers for the ML4H 2024 Findings Track', href: 'https://arxiv.org/abs/2503.00984' },
+  { label: 'Collection of the accepted papers for the ML4H 2023 Findings Track', href: 'https://arxiv.org/abs/2312.00655' },
+  { label: 'Collection of the accepted abstracts for the ML4H 2022 Extended Abstract Track', href: 'http://arxiv.org/abs/2211.15564' },
+  { label: 'Collection of the accepted abstracts for the ML4H 2021 Extended Abstract Track', href: 'https://arxiv.org/abs/2112.00179' },
+  { label: 'Collection of the accepted abstracts for the ML4H 2020 Extended Abstract Track', href: 'https://arxiv.org/abs/2011.11554v1' },
+  { label: 'Collection of the accepted abstracts for the ML4H 2019 Extended Abstract Track', href: 'https://arxiv.org/abs/2002.01584v1' },
+];
+
+const preWorkshops = [
+  { label: 'Collection of the accepted submissions to ML4H 2018', href: 'https://arxiv.org/abs/1811.07216' },
+  { label: 'Collection of the accepted submissions to ML4H 2017', href: 'https://ml4health.github.io/2017/pages/posters.html' },
+  { label: 'Program of ML4H 2016, NeurIPS 2016 Workshop book (pp. 20–22)', href: 'http://media.nips.cc/Conferences/2016/NIPS-2016-Workshop-Book.pdf' },
+];
+---
+<BaseLayout title="Proceedings">
+  <Hero
+    eyebrow="About · Proceedings"
+    title="ML4H Proceedings"
+    lead="Published proceedings and paper collections from every edition of Machine Learning for Health."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <p>
+        Since 2019, Machine Learning for Health has held two submission tracks:
+        a full, archival <strong>Proceedings track</strong>, published as volumes
+        of PMLR, and a non-archival <strong>Findings track</strong> (previously
+        known as the Extended Abstract track), available as arXiv or OpenReview
+        preprints.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Archival · PMLR</p>
+      <h2>Proceedings Track</h2>
+      <ul class="resource-list">
+        {proceedings.map((p) => (
+          <li class="resource">
+            <div class="resource-main">
+              <a href={p.href} rel="noopener" target="_blank">{p.label}</a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Non-archival · arXiv / OpenReview</p>
+      <h2>Findings Track</h2>
+      <ul class="resource-list">
+        {findings.map((p) => (
+          <li class="resource">
+            <div class="resource-main">
+              <a href={p.href} rel="noopener" target="_blank">{p.label}</a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">NeurIPS workshops</p>
+      <h2>Pre-2019 workshops</h2>
+      <ul class="resource-list">
+        {preWorkshops.map((p) => (
+          <li class="resource">
+            <div class="resource-main">
+              <a href={p.href} rel="noopener" target="_blank">{p.label}</a>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</BaseLayout>

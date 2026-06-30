@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+---
+<BaseLayout title="Code of Conduct">
+  <Hero
+    eyebrow="Resources · Code of Conduct"
+    title="Code of Conduct"
+    lead="ML4H is dedicated to providing a harassment-free experience for everyone."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Our commitment</h2>
+      <p>
+        ML4H is committed to providing a welcoming and inclusive environment
+        for all participants, regardless of gender, gender identity and expression,
+        sexual orientation, disability, physical appearance, body size, race,
+        age, religion, or national origin.
+      </p>
+      <p>
+        We do not tolerate harassment in any form. Participants violating these
+        rules may be sanctioned or expelled from the event at the discretion of
+        the organizers.
+      </p>
+
+      <h3>Expected behavior</h3>
+      <ul>
+        <li>Be respectful and considerate in all interactions.</li>
+        <li>Use welcoming and inclusive language.</li>
+        <li>Accept constructive criticism gracefully.</li>
+        <li>Show empathy toward other community members.</li>
+        <li>Be mindful of your surroundings and fellow participants.</li>
+      </ul>
+
+      <h3>Unacceptable behavior</h3>
+      <ul>
+        <li>Harassment, intimidation, or discrimination in any form.</li>
+        <li>Offensive verbal comments related to protected characteristics.</li>
+        <li>Unwelcome sexual attention or advances.</li>
+        <li>Sustained disruption of talks or discussions.</li>
+        <li>Retaliation against anyone who reports a violation.</li>
+      </ul>
+
+      <h3>Reporting</h3>
+      <p>
+        If you experience or witness unacceptable behavior, please report it to
+        the ML4H organizing committee at <a href="mailto:info@ml4h.cc">info@ml4h.cc</a>.
+        All reports will be handled with discretion and confidentiality.
+      </p>
+
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('resources/community-guidelines')}>Community Guidelines</a>
+        <a class="btn btn-outline" href={url('resources')}>Back to Resources</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

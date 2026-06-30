@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+---
+<BaseLayout title="Research Roundtables">
+  <Hero
+    eyebrow="Attend · Research Roundtables"
+    title="Research Roundtables"
+    lead="Small-group, focused discussions on key topics in machine learning for health."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <h2>About the roundtables</h2>
+      <p>
+        Research roundtables are a hallmark of the ML4H community experience.
+        These intimate, structured discussions bring together small groups of
+        researchers to engage deeply with specific topics — from methodological
+        challenges to deployment realities to open problems in the field.
+      </p>
+      <p>
+        Roundtable topics and facilitators for ML4H 2026 will be announced here.
+        In previous years, roundtables have covered topics such as:
+      </p>
+      <ul>
+        <li>Evaluation challenges in health AI</li>
+        <li>Clinical deployment and translation</li>
+        <li>Fairness and equity in ML for health</li>
+        <li>Synthetic data and privacy</li>
+        <li>Foundation models in clinical settings</li>
+      </ul>
+      <div class="callout">
+        <p>
+          <strong>Roundtable details coming soon.</strong> Interested in
+          facilitating a roundtable? Contact us at <a href="mailto:info@ml4h.cc">info@ml4h.cc</a>.
+        </p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('attend/schedule')}>Program Schedule</a>
+        <a class="btn btn-outline" href={url('attend')}>Back to Attend</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import { url } from '../lib/site';
+
+const resourcePages = [
+  { label: 'Writing Guidelines', path: 'resources/writing-guidelines', desc: 'Guidance on paper structure, length, formatting, and clarity.' },
+  { label: 'Reviewing Guidelines', path: 'resources/reviewing-guidelines', desc: 'Expectations and best practices for ML4H reviewers.' },
+  { label: 'Community Guidelines', path: 'resources/community-guidelines', desc: 'How we expect community members to engage with one another.' },
+  { label: 'Code of Conduct', path: 'resources/code-of-conduct', desc: 'Our standards for respectful participation at ML4H.' },
+  { label: 'Review Policy', path: 'resources/review-policy', desc: 'Details on how the review process works at ML4H.' },
+  { label: 'Publication Ethics', path: 'resources/publication-ethics', desc: 'Our expectations around authorship, disclosure, and integrity.' },
+  { label: 'FAQs', path: 'resources/faqs', desc: 'Frequently asked questions about submitting to and attending ML4H.' },
+];
+---
+<BaseLayout title="Resources">
+  <Hero
+    eyebrow="Resources"
+    title="Guidelines and policies"
+    lead="Everything you need to submit, review, and participate in ML4H 2026."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <div class="card-grid">
+        {resourcePages.map((p) => (
+          <a href={url(p.path)} class="card" style="text-decoration:none;color:inherit">
+            <h3>{p.label}</h3>
+            <p>{p.desc}</p>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

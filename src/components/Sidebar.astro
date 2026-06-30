@@ -1,0 +1,57 @@
+---
+import { NAV, SITE, url, currentKey } from '../lib/site';
+import type { NavItem } from '../lib/site';
+
+const key = currentKey(Astro.url.pathname);
+
+function isActiveSection(item: NavItem): boolean {
+  if (key === item.path) return true;
+  if (item.children) {
+    return item.children.some((c) => key === c.path) || (item.path !== '' && key.startsWith(item.path + '/'));
+  }
+  return false;
+}
+---
+<aside class="sidebar" id="sidebar">
+  <a class="brand" href={url('')}>
+    <span class="brand-wordmark">ML4H <span class="brand-year">{SITE.year}</span></span>
+    <span class="brand-sub">Machine Learning for Health</span>
+  </a>
+
+  <nav class="side-nav" aria-label="Primary">
+    {NAV.map((item) => (
+      <div class={`nav-group${isActiveSection(item) ? ' nav-group--active' : ''}`}>
+        <a
+          href={url(item.path)}
+          class="nav-top"
+          aria-current={key === item.path ? 'page' : undefined}
+        >{item.label}</a>
+        {item.children && item.children.length > 0 && (
+          <div class="nav-children">
+            {item.children.map((child) => (
+              <a
+                href={url(child.path)}
+                class="nav-child"
+                aria-current={key === child.path ? 'page' : undefined}
+              >{child.label}</a>
+            ))}
+          </div>
+        )}
+      </div>
+    ))}
+  </nav>
+
+  <div class="side-section">
+    <h2>Contact</h2>
+    <div class="side-contact">
+      <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+    </div>
+  </div>
+
+  <div class="side-foot">
+    <p>
+      <strong>{SITE.dates}</strong><br />
+      {SITE.location}
+    </p>
+  </div>
+</aside>

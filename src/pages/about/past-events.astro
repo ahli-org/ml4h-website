@@ -1,0 +1,168 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+
+const symposia = [
+  {
+    edition: '5th',
+    year: '2025',
+    dates: 'December 1–2, 2025',
+    location: 'The Westin San Diego Gaslamp, San Diego, CA, USA',
+    website: 'https://ahli.cc/ml4h/2025/',
+    proceedings: null,
+  },
+  {
+    edition: '4th',
+    year: '2024',
+    dates: 'December 15–16, 2024',
+    location: 'Vancouver, BC, Canada',
+    website: null,
+    proceedings: 'https://proceedings.mlr.press/v259/',
+  },
+  {
+    edition: '3rd',
+    year: '2023',
+    dates: 'December 10, 2023',
+    location: 'New Orleans, LA, USA',
+    website: null,
+    proceedings: 'https://proceedings.mlr.press/v225/',
+  },
+  {
+    edition: '2nd',
+    year: '2022',
+    dates: 'November 28, 2022',
+    location: 'New Orleans, LA, USA',
+    website: null,
+    proceedings: 'https://proceedings.mlr.press/v193/',
+  },
+  {
+    edition: '1st',
+    year: '2021',
+    dates: 'December 4, 2021',
+    location: 'Virtual',
+    website: null,
+    proceedings: null,
+  },
+];
+
+const workshops = [
+  { year: '2020', link: 'https://ml4health.github.io/2020/' },
+  { year: '2019', link: 'https://ml4health.github.io/2019/' },
+  { year: '2018', link: 'https://ml4health.github.io/2018/' },
+  { year: '2017', link: 'https://ml4health.github.io/2017/' },
+  { year: '2016', link: 'https://ml4health.github.io/2016/' },
+];
+---
+<BaseLayout title="Past Events">
+  <Hero
+    eyebrow="About · Past Events"
+    title="Past ML4H events"
+    lead="Programs, proceedings, and highlights from previous editions of ML4H."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <h2>ML4H Symposium</h2>
+      <p>ML4H became an independent standalone symposium starting in 2021.</p>
+
+      <div class="event-list">
+        {symposia.map((e) => (
+          <div class="event-card">
+            <div class="event-edition">{e.edition} Annual</div>
+            <div class="event-body">
+              <h3 class="event-title">ML4H Symposium {e.year}</h3>
+              <p class="event-meta">{e.dates} &nbsp;·&nbsp; {e.location}</p>
+              {e.website && (
+                <a class="event-link" href={e.website}>Event website →</a>
+              )}
+              {e.proceedings && (
+                <a class="event-link" href={e.proceedings}>View Proceedings →</a>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2>ML4H NeurIPS Workshop</h2>
+      <p>ML4H was a NeurIPS workshop prior to 2021.</p>
+      <ul class="workshop-list">
+        {workshops.map((w) => (
+          <li><a href={w.link}>ML4H {w.year}</a></li>
+        ))}
+      </ul>
+
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('about')}>Back to About</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .event-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1.4rem 0;
+  }
+  .event-card {
+    display: flex;
+    gap: 1.4rem;
+    align-items: flex-start;
+    background: var(--card);
+    padding: 1.4rem 1.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .event-card:last-child { border-bottom: none; }
+  .event-edition {
+    flex: 0 0 5rem;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--teal);
+    padding-top: .2rem;
+  }
+  .event-body { flex: 1; min-width: 0; }
+  .event-title {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--ink);
+    margin: 0 0 .3rem;
+  }
+  .event-meta {
+    font-size: .92rem;
+    font-weight: 600;
+    color: var(--ink-soft);
+    margin: 0 0 .4rem;
+  }
+  .event-link {
+    font-size: .85rem;
+    font-weight: 600;
+    color: var(--purple);
+    text-decoration: none;
+  }
+  .event-link:hover { color: var(--teal); text-decoration: underline; }
+
+  .workshop-list {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem 1.2rem;
+  }
+  .workshop-list li a {
+    font-weight: 600;
+    font-size: .95rem;
+  }
+</style>

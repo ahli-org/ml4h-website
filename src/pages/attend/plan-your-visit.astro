@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+---
+<BaseLayout title="Plan Your Visit">
+  <Hero
+    eyebrow="Attend · Plan Your Visit"
+    title="Plan your visit"
+    lead="Venue, travel, and accommodation information for ML4H 2026."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <h2>Venue</h2>
+      <p>
+        ML4H 2026 venue details will be announced here once confirmed.
+        The event is typically co-located with a major machine learning conference.
+      </p>
+
+      <h3>Travel and accommodation</h3>
+      <p>
+        Travel and hotel information, including any conference-negotiated room
+        blocks, will be posted here as the event approaches.
+      </p>
+
+      <h3>Visa and letters of invitation</h3>
+      <p>
+        If you require a visa invitation letter for travel, please contact us
+        at <a href="mailto:info@ml4h.cc">info@ml4h.cc</a> after receiving
+        notification of paper acceptance.
+      </p>
+
+      <div class="callout">
+        <p>
+          <strong>Details coming soon.</strong> Check back here as ML4H 2026
+          approaches for complete venue and travel information.
+        </p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('attend/schedule')}>Program Schedule</a>
+        <a class="btn btn-outline" href={url('attend')}>Back to Attend</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

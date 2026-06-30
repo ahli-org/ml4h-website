@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import { url } from '../../lib/site';
+---
+<BaseLayout title="Schedule">
+  <Hero
+    eyebrow="Attend · Schedule"
+    title="Program schedule"
+    lead="The full ML4H 2026 schedule will be posted here once the program is finalized."
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <div class="callout">
+        <p>
+          <strong>Schedule coming soon.</strong> The full program including
+          keynote talks, paper presentations, poster sessions, and research
+          roundtables will be posted here.
+        </p>
+      </div>
+      <div class="btn-row">
+        <a class="btn btn-outline" href={url('attend/speakers')}>Invited Speakers</a>
+        <a class="btn btn-outline" href={url('attend/research-roundtables')}>Research Roundtables</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
