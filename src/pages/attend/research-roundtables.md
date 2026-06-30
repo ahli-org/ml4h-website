@@ -23,8 +23,7 @@ In previous years, roundtables have covered topics such as:
 
 <div class="callout">
   <p>
-    <strong>Roundtable details coming soon.</strong> Interested in
-    facilitating a roundtable? Contact us at <a href="mailto:ml4h@ahli.cc">ml4h@ahli.cc</a>.
+    <strong>Roundtable details coming soon.</strong> 
   </p>
 </div>
 

@@ -2,29 +2,26 @@
 layout: ../../layouts/MarkdownLayout.astro
 title: Community Guidelines
 eyebrow: Resources · Community Guidelines
-lead: How we expect members of the ML4H community to engage with one another.
+lead: Guidelines for all programs supported by the Association for Health Learning and Inference (AHLI) and the ML4H community.
 ---
 
-## Our community
+## Purpose and scope
 
-ML4H brings together researchers with diverse backgrounds, perspectives,
-and expertise. The strength of the community depends on all participants
-engaging with openness, honesty, and mutual respect.
+These Community Guidelines exist to shape and guide programs supported by the Association for Health Learning and Inference (AHLI) and the growing community it engages. They are intended to help create a space where community members can feel comfortable and supported, while still allowing for different — and sometimes conflicting — points of view. These guidelines serve a broader purpose than the Code of Conduct.
 
-### Core expectations
+These guidelines summarize a thorough, thoughtful, and living internal policy developed by the AHLI Board of Directors to promote a safe learning and collaborative environment. They apply to all AHLI programs, including scientific meetings and informal community events. Specific persons affected by these guidelines include, but are not limited to:
 
-- Treat all community members with dignity and respect.
-- Engage with ideas honestly and in good faith.
-- Give credit where it is due — in citations, acknowledgements, and conversation.
-- Welcome newcomers and support early-career researchers.
-- Be constructive when offering critique; be gracious when receiving it.
-- Disclose conflicts of interest transparently.
+- Program volunteers, including organizing committee members
+- Program speakers, panelists, moderators, and other invited individuals
+- Program participants and attendees
 
-### Scientific integrity
+## Principles
 
-We expect all ML4H participants to adhere to the highest standards of
-scientific integrity. This includes honest reporting of results, appropriate
-attribution of prior work, and responsible use of data and models.
+**Openness.** We encourage open communication and critique in our intellectual community. Strong intellectual disagreement should not be confused with aggressive behavior.
+
+**Respect.** A community where people feel uncomfortable or threatened by tone or targeting is not one where we can have the most rigorous discussion possible. During the course of academic debate and discussion, we expect our community to act in an empathetic fashion, understanding that civility is important in all cultures. Critique of ideas or contributions should not turn into personal attacks on persons or identities.
+
+**Responsibility.** We recognize that mistakes will be made in the course of human engagement and we commit to take responsibility for them. This commitment includes listening carefully and respectfully to all complaints, and working to understand how to improve.
 
 <div class="btn-row">
   <a class="btn btn-outline" href="../code-of-conduct/">Code of Conduct</a>

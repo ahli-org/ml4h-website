@@ -7,19 +7,8 @@ lead: Venue, travel, and accommodation information for ML4H 2026.
 
 ## Venue
 
-ML4H 2026 venue details will be announced here once confirmed.
-The event is typically co-located with a major machine learning conference.
+ML4H 2026 will be held in Sydney, Australia, prior to NeurIPS. Venue details will be announced here once confirmed.
 
-### Travel and accommodation
-
-Travel and hotel information, including any conference-negotiated room
-blocks, will be posted here as the event approaches.
-
-### Visa and letters of invitation
-
-If you require a visa invitation letter for travel, please contact us
-at [ml4h@ahli.cc](mailto:ml4h@ahli.cc) after receiving
-notification of paper acceptance.
 
 <div class="callout">
   <p>

@@ -3,6 +3,7 @@ import { NAV, SITE, url, currentKey } from '../lib/site';
 import type { NavItem } from '../lib/site';
 
 const key = currentKey(Astro.url.pathname);
+const base = import.meta.env.BASE_URL;
 
 function isActiveSection(item: NavItem): boolean {
   if (key === item.path) return true;
@@ -14,7 +15,7 @@ function isActiveSection(item: NavItem): boolean {
 ---
 <aside class="sidebar" id="sidebar">
   <a class="brand" href={url('')}>
-    <span class="brand-wordmark">ML4H <span class="brand-year">{SITE.year}</span></span>
+    <img class="brand-logo" src={`${base}logos/ahli-horizontal-white.svg`} alt="AHLI — Association for Health Learning and Inference" width="220" height="69" />
     <span class="brand-sub">Machine Learning for Health</span>
   </a>
 

@@ -2,41 +2,38 @@
 layout: ../../layouts/MarkdownLayout.astro
 title: Code of Conduct
 eyebrow: Resources · Code of Conduct
-lead: ML4H is dedicated to providing a harassment-free experience for everyone.
+lead: ML4H is dedicated to providing an environment that supports the open exchange of ideas, the freedom of thought and expression, and respectful scientific debate.
 ---
 
-## Our commitment
+## ML4H Code of Conduct
 
-ML4H is committed to providing a welcoming and inclusive environment
-for all participants, regardless of gender, gender identity and expression,
-sexual orientation, disability, physical appearance, body size, race,
-age, religion, or national origin.
+All participants — including organizers, reviewers, speakers, sponsors, and volunteers — must comply with this code during events and on official communication channels. Sponsors are equally subject to this Code of Conduct and may not use offensive imagery or materials.
 
-We do not tolerate harassment in any form. Participants violating these
-rules may be sanctioned or expelled from the event at the discretion of
-the organizers.
+### Harassment and discrimination
 
-### Expected behavior
+ML4H is committed to preventing offensive comments based on protected characteristics such as race, gender identity, sexual orientation, disability, religion, and national origin, as well as intimidation and personal attacks of any kind.
 
-- Be respectful and considerate in all interactions.
-- Use welcoming and inclusive language.
-- Accept constructive criticism gracefully.
-- Show empathy toward other community members.
-- Be mindful of your surroundings and fellow participants.
+### Inappropriate conduct
 
-### Unacceptable behavior
+Sexual harassment, stalking, unwelcome physical contact, and disruptive behavior that prevents full participation are not tolerated.
 
-- Harassment, intimidation, or discrimination in any form.
-- Offensive verbal comments related to protected characteristics.
-- Unwelcome sexual attention or advances.
-- Sustained disruption of talks or discussions.
-- Retaliation against anyone who reports a violation.
+### Offensive materials
 
-### Reporting
+Content that is sexual or racial in nature and creates a toxic environment is prohibited.
 
-If you experience or witness unacceptable behavior, please report it to
-the ML4H organizing committee at [ml4h@ahli.cc](mailto:ml4h@ahli.cc).
-All reports will be handled with discretion and confidentiality.
+### Disruptive activity
+
+Fighting, property damage, and disruption of virtual sessions (e.g., "Zoom bombing" with off-topic remarks) are not permitted.
+
+### Scientific misconduct
+
+Fabrication, falsification, and plagiarism in submissions or presentations violate this code.
+
+This policy applies to official symposium venues — physical and virtual — but not to unsponsored locations such as hotels or restaurants.
+
+### Reporting and enforcement
+
+Organizers may impose warnings, expulsion without refund, future bans, or institutional reporting. Participants should report incidents to [info@ml4h.cc](mailto:info@ml4h.cc). The symposium guarantees investigation within 24 hours for onsite complaints and two weeks otherwise, with confidentiality protections and no retaliation against good-faith reporters.
 
 <div class="btn-row">
   <a class="btn btn-outline" href="../community-guidelines/">Community Guidelines</a>

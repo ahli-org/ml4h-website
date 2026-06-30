@@ -86,16 +86,10 @@ a:hover { color: var(--teal); }
 
 .brand { display: block; text-decoration: none; margin-bottom: 2.2rem; }
 .brand:hover { color: inherit; }
-.brand-wordmark {
-  display: block;
-  font-family: var(--serif); font-weight: 700;
-  font-size: 1.55rem; line-height: 1;
-  color: #ffffff; letter-spacing: -0.01em;
-}
-.brand-year { font-weight: 300; color: var(--teal-bright); }
+.brand-logo { display: block; width: 100%; max-width: 14rem; height: auto; }
 .brand-sub {
   display: block;
-  margin-top: .55rem;
+  margin-top: .7rem;
   font-size: .7rem; font-weight: 600;
   letter-spacing: .17em; text-transform: uppercase;
   color: var(--mint);
@@ -733,6 +727,8 @@ a:hover { color: var(--teal); }
 .cta h2 { color: #fff; font-family: var(--serif); }
 .cta p { color: #d4d6ea; max-width: 30rem; margin: .6rem auto 0; }
 .cta .btn-row { justify-content: center; }
+.cta .btn-outline { color: #fff; border-color: rgba(255,255,255,.45); }
+.cta .btn-outline:hover { color: #fff; border-color: rgba(255,255,255,.8); background: rgba(255,255,255,.1); }
 
 /* ---- Banner image (below hero on homepage) -------------------------------- */
 .banner-strip { width: 100%; overflow: hidden; line-height: 0; }
