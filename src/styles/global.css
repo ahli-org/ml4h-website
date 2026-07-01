@@ -342,6 +342,11 @@ a:hover { color: var(--teal); }
 .btn:active { transform: translateY(1px); }
 .btn-primary { background: var(--purple); color: #fff; box-shadow: var(--shadow-sm); }
 .btn-primary:hover { background: #0c639a; color: #fff; box-shadow: var(--shadow-md); }
+/* On the solid-blue hero/CTA a blue fill would vanish — invert to white-on-blue. */
+.hero .btn-primary,
+.cta .btn-primary { background: #fff; color: var(--indigo); }
+.hero .btn-primary:hover,
+.cta .btn-primary:hover { background: rgba(255,255,255,.88); color: var(--indigo); }
 .btn-ghost {
   background: transparent; color: #fff;
   border: 1px solid rgba(255,255,255,.45);
