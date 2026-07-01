@@ -2,7 +2,7 @@
 import { defineConfig } from 'astro/config';
 
 /** @type {string} */
-const BASE = '/ml4h-website/';
+const BASE = '/';
 
 function remarkBaseUrl() {
   const prefix = BASE === '/' ? '' : BASE.replace(/\/$/, '');
@@ -26,7 +26,7 @@ function remarkBaseUrl() {
 
 export default defineConfig({
   output: 'static',
-  site: 'https://ml4h-org.github.io',
+  site: 'https://ml4h.ahli.cc',
   base: BASE,
   markdown: {
     remarkPlugins: [remarkBaseUrl],
