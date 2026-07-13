@@ -7,9 +7,9 @@ lead: Opportunities for early-career researchers to receive feedback, guidance, 
 
 ML4H is proud to offer three distinct mentorship programs designed to support individuals at various stages of their careers in machine learning and healthcare.
 
-- [**Author Mentorship**](https://docs.google.com/forms/d/e/1FAIpQLSc8oE1i1OoWhlkOToayM04s3x6_vxqGn0zl6dHLGs309vNnlA/viewform?usp=dialog) **(deadline: August 10th, rolling until September 1st)**
-- [**Reviewer Mentorship**](https://docs.google.com/forms/d/e/1FAIpQLScal8-yH3ebEHKMk8wXIvdg_aNcKQX70LcU1XzdpmJuMtqJHw/viewform?usp=publish-editor) **(deadline: September 14th)**
-- [**Career Mentorship**](https://docs.google.com/forms/d/e/1FAIpQLSceQX896T7r_TrER4ym5qqLqw8nOtL6gTdPOvGURATC5mNdgQ/viewform?usp=dialog) **(deadline: October 26th)**
+- [**Author Mentorship**](#author-mentorship) **(deadline: August 10th, rolling until September 1st)**
+- [**Reviewer Mentorship**](#reviewer-mentorship) **(deadline: September 14th)**
+- [**Career Mentorship**](#career-mentorship) **(deadline: October 26th)**
 
 <div class="callout">
   <p>
