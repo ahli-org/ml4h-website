@@ -251,6 +251,6 @@ As a mentor, you will be expected to:
 ---
 
 <div class="btn-row">
-  <a class="btn btn-outline" href="../call-for-papers/">Call for Papers</a>
+  <a class="btn btn-outline" href="../call-for-papers/">Call for Participation</a>
   <a class="btn btn-outline" href="../">Back to Submit</a>
 </div>

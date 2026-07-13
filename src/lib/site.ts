@@ -50,7 +50,7 @@ export const NAV: NavItem[] = [
     label: 'Submit',
     path: 'submit',
     children: [
-      { label: 'Call for Papers', path: 'submit/call-for-papers' },
+      { label: 'Call for Participation', path: 'submit/call-for-papers' },
       { label: 'Call for Demonstrations', path: 'submit/call-for-demonstrations' },
       { label: 'Mentorship Programs', path: 'submit/mentorship-programs' },
     ],

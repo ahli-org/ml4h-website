@@ -100,6 +100,6 @@ ideas that served as good discussion points between the authors and other attend
 - [Transfusion: Understanding Transfer Learning for Medical Imaging](https://drive.google.com/drive/folders/1-2g_8g-d7RzPNB40MPOGlkmSVLSydmco?usp=sharing) (submitted extended abstract version — the full paper is available [here](https://arxiv.org/abs/1902.07208))
 
 <div class="btn-row">
-  <a class="btn btn-outline" href="../../submit/call-for-papers/">Call for Papers</a>
+  <a class="btn btn-outline" href="../../submit/call-for-papers/">Call for Participation</a>
   <a class="btn btn-outline" href="../">Back to Resources</a>
 </div>

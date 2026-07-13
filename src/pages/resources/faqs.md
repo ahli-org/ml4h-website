@@ -15,7 +15,7 @@ lead: Common questions about submitting to and attending ML4H 2026.
   pages, or a "Findings" submission which is 4 pages. One major difference is that Proceedings
   submissions are archival — they cannot be concurrent with other submissions and must be unpublished
   work — while Findings submissions have no such requirement. Each track has different templates;
-  see the <a href="../../submit/call-for-papers/">Call for Papers</a> for details under "Quick
+  see the <a href="../../submit/call-for-papers/">Call for Participation</a> for details under "Quick
   Submission Instructions."
 </p>
 </div>
@@ -35,7 +35,7 @@ lead: Common questions about submitting to and attending ML4H 2026.
 <p>
   Although we can't meet with authors 1:1 or judge your work's chance of being accepted, we welcome
   you to submit your work to ML4H if your topic fits under the general themes of our Symposium.
-  See the <a href="../../submit/call-for-papers/">Call for Papers</a> for a full description of
+  See the <a href="../../submit/call-for-papers/">Call for Participation</a> for a full description of
   submission areas and what we're looking for.
 </p>
 </div>
@@ -155,6 +155,6 @@ lead: Common questions about submitting to and attending ML4H 2026.
 </div>
 
 <div class="btn-row">
-  <a class="btn btn-outline" href="../../submit/call-for-papers/">Call for Papers</a>
+  <a class="btn btn-outline" href="../../submit/call-for-papers/">Call for Participation</a>
   <a class="btn btn-outline" href="../">Back to Resources</a>
 </div>

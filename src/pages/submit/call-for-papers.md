@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownLayout.astro
-title: Call for Papers
-eyebrow: Submit · Call for Papers
+title: Call for Participation
+eyebrow: Submit · Call for Participation
 lead: ML4H 2026 invites submissions describing innovative research that lies in the broad purview of Machine Learning for Health, including healthcare, biomedicine, and public health.
 ---
 
@@ -23,7 +23,7 @@ We will be hosting a [Reviewer Mentorship Program](../mentorship-programs/) as w
   <p>
     <strong>Demo Track:</strong> ML4H 2026 also solicits non-archival demonstration submissions that
     showcase real-world ML4H tools, to be presented live during the symposium. Check the
-    <a href="../call-for-demonstrations/">Call for Demos</a> for more details.
+    <a href="../call-for-demonstrations/">Call for Demos</a> for more details to come.
   </p>
 </div>
 
@@ -58,7 +58,8 @@ malformed, non-blinded, non-health-related, or grossly insufficient works **may 
 rejected** by the organizing committee without undergoing formal peer review.
 
 **Submission Form:** All submissions will be managed through the OpenReview system. Authors
-are required to fill out a submission form on OpenReview that will be visible to reviewers. The form
+are required to fill out a submission form on OpenReview that will be visible to reviewers to help them
+assess the work. The form
 will indicate the submission track (Proceedings or Findings), which general area the submission should
 be considered under (Materials and Methods, Applications and Practice, or Impact and Society), and
 specific subject areas.
@@ -72,14 +73,14 @@ the submission deadline.
 **Data and Code:** We encourage anonymized code and data submissions (if it can be made
 available with appropriate approval and guidelines) as supplemental materials during review. If you are
 not sharing code, you must explicitly state this in the paper. If your paper is accepted, we encourage
-public sharing of your code and/or data for the camera-ready version.
+public sharing of your code and/or data for the camera-ready version of the paper.
 
 **Ethics Board Approval:** If your research requires IRB (or equivalent) approval or has
-been evaluated by your IRB as Not Human Subject Research, then for the camera-ready version you must
-provide relevant information. At the time of submission, to preserve anonymity, it suffices to include
-a statement that relevant ethics approval information will be provided if the paper is accepted. If
-your research does not require IRB approval, please explicitly state this and provide a justification
-in the paper.
+been evaluated by your IRB as Not Human Subject Research, then for the camera-ready version of the
+paper, you must provide relevant information. At the time of submission for review, to preserve
+anonymity, it suffices to include a statement that relevant ethics approval information will be
+provided if the paper is accepted. If your research does not require IRB approval, please explicitly
+state this to be the case and provide a justification in the paper.
 
 ---
 
@@ -105,15 +106,17 @@ submission is accepted, you will be allowed 1 additional content page for the ca
 
 An excellent findings paper is one that highlights new insights, valuable resources, or exciting
 preliminary directions that are broadly relevant to the community. The goal is to spark these insights
-at the event through interaction with other attendees — presenting new ideas or ways of thinking,
+at the event through interaction with other attendees, such as by presenting new ideas/ways of thinking,
 leading to insightful discussion and feedback, dissemination of new valuable resources, or enabling new
-opportunities for collaboration. We especially solicit "non-traditional research artifacts" such as
-papers highlighting novel datasets, insightful negative results, exciting preliminary results that
-warrant rapid dissemination, reproducibility studies, and opinion pieces or critiques.
+opportunities for collaborations. We also especially solicit "non-traditional research artifacts" as
+submissions to the findings track, such as papers highlighting novel datasets, insightful negative
+results, exciting preliminary results that warrant rapid dissemination, reproducibility studies, and
+opinion pieces or critiques.
 
 Findings papers can be up to 4 pages at submission (excluding references and appendices), though
 additional information not critical for understanding the work can be included in an appendix without
-penalty. Findings papers will not appear in the ML4H proceedings, but upon acceptance, we will make
+penalty (reviewers will review the work based predominantly on the main text). Findings papers will not
+appear in the ML4H proceedings, but upon acceptance, we will make
 the accepted findings paper public on OpenReview. We also encourage (but do not require) authors to
 submit their findings as de-anonymized preprints (no page limit) to arXiv and mention ML4H in the
 comments.
@@ -131,11 +134,12 @@ published in or simultaneously under review at any other archival venue. Similar
 and published in the ML4H Proceedings may not be published again later at any other archival venue.
 
 **Findings Track:** Authors of accepted findings papers retain full copyright of their
-work, and acceptance of such a submission does not preclude publication of the same material in another
-archival venue (e.g. journal or conference). Findings submissions that are under review or have been
-recently published in a conference or journal are allowed; if this is the case, authors should clearly
-state any overlapping published or submitted work at the time of submission (in a confidential
-comment), and must ensure they are not violating any other venue's dual submission policies.
+work, and acceptance of such a submission for presentation at ML4H 2026 does not preclude publication
+of the same material in another archival venue (e.g. journal or conference). Furthermore, findings
+submissions that are under review or have been recently published in a conference or a journal are
+allowed; if this is the case, authors should clearly state any overlapping published or submitted work
+at the time of submission (in a confidential comment), and must ensure that they are not violating any
+other venue's dual submission policies.
 
 **FAQ about NeurIPS 2026 submissions:**
 
@@ -222,20 +226,22 @@ learning to probabilistic modeling to rigorous theory and beyond.
 
 The goal of this area is to highlight works applying robust methods, models, or practices to identify,
 characterize, audit, evaluate, or benchmark ML approaches to healthcare problems. Additionally, we
-welcome unique deployments and datasets used to empirically evaluate these systems. Whereas Area 1
-focuses on algorithmic novelty, submit your work here if the contribution is describing an emerging or
-established innovative application of ML in healthcare. Areas of interest include but are not limited to:
+welcome unique deployments and datasets used to empirically evaluate these systems. Whereas the goal of
+Area 1 is to select papers that show significant algorithmic novelty, submit your work here if the
+contribution is describing an emerging or established innovative application of ML in healthcare.
+Areas of interest include but are not limited to:
 
 - Datasets and simulation frameworks for addressing gaps in ML healthcare applications
 - Tools and platforms that facilitate integration of AI algorithms and deployment for healthcare applications
-- Innovative ML-based approaches to solving practical problems grounded in a healthcare application
+- Innovative ML-based approaches to solving a practical problems grounded in a healthcare application
 - Surveys, benchmarks, evaluations and best practices of using ML in healthcare
 - Emerging applications of AI in healthcare
 
-Introducing a new method is not prohibited for this area, but the focus should be on how the proposed
-ideas contribute to addressing a practical limitation (e.g., robustness, computational scalability,
-improved performance). We encourage submissions in both traditional clinical areas (e.g., EHR, medical
-image analysis) and emerging fields (e.g., remote and telehealth medicine, integration of omics).
+Introducing a new method is not prohibited by any means for this area, but the focus should be on the
+extent of how the proposed ideas contribute to addressing a practical limitation (e.g., robustness,
+computational scalability, improved performance). We encourage submissions in both more traditional
+clinical areas (e.g., electronic health records (EHR), medical image analysis), as well as in emerging
+fields (e.g., remote and telehealth medicine, integration of omics).
 
 **Example Papers**
 
@@ -293,14 +299,12 @@ reviews, and the author response. This process aims at seeking a consensus betwe
 meta-reviewers. We ask reviewers to change their initially submitted review scores and recommendations
 during the discussion period, if applicable, and state this in the discussion along with justification.
 Discussions will take place within OpenReview by using the comment function in each respective
-submission and should remain double-blind.
+submission and should remain double-blind, i.e. comments may not de-anonymize the authors or reviewers.
 
 In general, these discussions will be between reviewers and meta-reviewers only. However, when further
 clarifications from the authors are necessary, reviewers may reach out to authors through OpenReview
 comments. It is only in response to such direct questions that authors should add comments beyond
 their author response, and said comments should be limited to directly answering the asked question.
-The reviewer discussion period formally ends on October 17 11:59 PM AoE, but discussions may be
-finalized earlier.
 
 ## Authorship Policy
 
