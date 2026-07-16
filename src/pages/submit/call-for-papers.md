@@ -50,7 +50,7 @@ _All times are in AoE._
 
 **Submission Site:** <https://openreview.net/group?id=ML4H/2026/Symposium>
 
-**ML4H 2026 LaTeX template:** Link will be provided soon.
+**ML4H 2026 LaTeX template:** <https://www.overleaf.com/latex/templates/machine-learning-for-health-ml4h-2026-template/sqgwhtyswgcy>
 
 **Formatting and Anonymization:** Submissions must be formatted using the ML4H 2026 LaTeX
 templates with proper anonymization. **Gross violations** of formatting guidelines,
