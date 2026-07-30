@@ -98,7 +98,7 @@ findings paper can be found [here](https://ml4h.cc/2023/writing_guidelines.html)
 Excellent ML4H Proceedings papers should be compelling, cohesive works with a high degree of technical
 sophistication as well as clear and high-impact relevance to health. Accepted proceedings papers will
 be published in the Proceedings for Machine Learning Research (PMLR). Past proceedings can be found
-[here](https://docs.google.com/document/u/0/d/1aSMSa8jfS1EkbUKLUeDJ09WjJTTIrBGBANATQ2WNeDQ/edit).
+[here](https://ml4h.ahli.cc/about/proceedings/).
 Proceedings papers can be up to 8 pages at submission (excluding references and appendices). If your
 submission is accepted, you will be allowed 1 additional content page for the camera-ready version.
 
