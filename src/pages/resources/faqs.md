@@ -145,8 +145,20 @@ lead: Common questions about submitting to and attending ML4H 2026.
 </div>
 
 <div class="faq-item">
+<h3>My paper was accepted but I can no longer attend in person. What happens to my paper?</h3>
+<p>As long as one author from each accepted paper has paid the registration fee, the paper will remain in the ML4H collection. We unfortunately cannot provide refunds as the registration fee serves as the publication fee.</p>
+</div>
+</div>
+
+<div class="faq-item">
+<h3>What support do you offer for authors affected by travel restrictions?</h3>
+<p>We can provide formal documentation including formal invitation letters, proof of event participation, and letters of support explaining the goals of the event, and the attendee’s role. In certain circumstances, authors who are unable to attend in person due to documented circumstances may be eligible for a reduced registration fee. All registration fees will be non-refundable beginning 14 business days prior to the event.</p>
+</div>
+</div>
+
+<div class="faq-item">
 <h3>Will there be a virtual option to attend ML4H this year?</h3>
-<p>Unfortunately, there are currently no plans to host an online mode of attendance.</p>
+<p>There will be no virtual/remote/asynchronous attendance option or livestreaming. We will make an effort to record keynotes/panels and post on the website afterwards. Unfortunately, we will have no virtual posters via zoom.</p>
 </div>
 </div>
 
