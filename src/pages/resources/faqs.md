@@ -158,7 +158,7 @@ lead: Common questions about submitting to and attending ML4H 2026.
 
 <div class="faq-item">
 <h3>Will there be a virtual option to attend ML4H this year?</h3>
-<p>There will be no virtual/remote/asynchronous attendance option or livestreaming. We will make an effort to record keynotes/panels and post on the website afterwards. Unfortunately, we will have no virtual posters via zoom.</p>
+<p>In certain circumstances, virtual, asynchronous poster presentations may be available. </p>
 </div>
 </div>
 
