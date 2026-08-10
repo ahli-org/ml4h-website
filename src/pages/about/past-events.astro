@@ -10,7 +10,8 @@ const symposia = [
     dates: 'December 1–2, 2025',
     location: 'The Westin San Diego Gaslamp, San Diego, CA, USA',
     website: 'https://ahli.cc/ml4h/2025/',
-    proceedings: null,
+    recording: 'https://youtu.be/oVaft1m5qF0?si=4U0HQH2wbVpC8Y8V',
+    proceedings: 'https://proceedings.mlr.press/v297/',
   },
   {
     edition: '4th',
@@ -24,15 +25,16 @@ const symposia = [
     edition: '3rd',
     year: '2023',
     dates: 'December 10, 2023',
-    location: 'New Orleans, LA, USA',
+    location: 'Intercontinental New Orleans, New Orleans, LA, USA',
     website: 'https://ml4h.cc/2023/',
+    recording: 'https://youtu.be/pmDy01Xt5co?si=3EelEArS8aOnGznP',
     proceedings: 'https://proceedings.mlr.press/v225/',
   },
   {
     edition: '2nd',
     year: '2022',
     dates: 'November 28, 2022',
-    location: 'New Orleans, LA, USA',
+    location: 'Intercontinental New Orleans, New Orleans, LA, USA',
     website: 'https://ml4h.cc/2022/',
     proceedings: 'https://proceedings.mlr.press/v193/',
   },
@@ -42,7 +44,7 @@ const symposia = [
     dates: 'December 4, 2021',
     location: 'Virtual',
     website: 'https://ml4h.cc/2021/',
-    proceedings: null,
+    proceedings: 'https://proceedings.mlr.press/v158/',
   },
 ];
 
@@ -73,12 +75,23 @@ const workshops = [
             <div class="event-body">
               <h3 class="event-title">ML4H Symposium {e.year}</h3>
               <p class="event-meta">{e.dates} &nbsp;·&nbsp; {e.location}</p>
-              {e.website && (
-                <a class="event-link" href={e.website}>Event website →</a>
-              )}
-              {e.proceedings && (
-                <a class="event-link" href={e.proceedings}>View Proceedings →</a>
-              )}
+              <div class="event-links">
+                {e.website && (
+                  <a class="event-link" href={e.website}>Event website →</a>
+                )}
+                {e.proceedings && (
+                  <>
+                    <span class="event-separator" aria-hidden="true">·</span>
+                    <a class="event-link" href={e.proceedings}>View Proceedings →</a>
+                  </>
+                )}
+                {e.recording && (
+                  <>
+                    <span class="event-separator" aria-hidden="true">·</span>
+                    <a class="event-link" href={e.recording}>Watch Recording →</a>
+                  </>
+                )}
+              </div>
             </div>
           </div>
         ))}
@@ -145,11 +158,23 @@ const workshops = [
     color: var(--ink-soft);
     margin: 0 0 .4rem;
   }
+  .event-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .35rem;
+    margin-top: .45rem;
+  }
   .event-link {
+    display: inline-block;
     font-size: .85rem;
     font-weight: 600;
     color: var(--purple);
     text-decoration: none;
+  }
+  .event-separator {
+    color: var(--ink-soft);
+    margin: 0.4rem;
   }
   .event-link:hover { color: var(--teal); text-decoration: underline; }
 
