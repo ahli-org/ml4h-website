@@ -82,9 +82,19 @@ lead: Common questions about submitting to and attending ML4H 2026.
 <div class="faq-item">
 <h3>I'm interested in reviewing for ML4H — who should I contact?</h3>
 <p>
-  Thanks for your interest! Please reach out to us at <a href="mailto:ml4h@ahli.cc">ml4h@ahli.cc</a>.
+  
+  Thanks for your interest! Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSeBdOC-wzZtQbOTY4O-6anKvatRf9tHn_YQ0ekvY30uW_kqeQ/viewform). 
 </p>
 </div>
+
+<div class="faq-item">
+<h3>None of the authors on my submission meet the reciprocal reviewing requirement — who should I contact?</h3>
+<p>
+  
+  Please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe827colORXf495aAXCOgN8gjCD52dcL4-hiPAoygmfyMDkiw/viewform).
+</p>
+</div>
+
 
 <div class="faq-item">
 <h3>When I try to accept my reviewer invitation on OpenReview, I get an error. Any tips?</h3>
