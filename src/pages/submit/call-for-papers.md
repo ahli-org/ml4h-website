@@ -158,8 +158,7 @@ Every submission must include at least one author registered to review a minimum
 A qualified reviewer will have at least one prior archival publication at a comparable peer-reviewed
 venue (for example, a ML for health conference, or a health-focused paper at an ML venue).
 
-If none of the authors meet this qualification, please reach out to the ML4H organizing team and the
-submission will be exempt from this requirement after evaluation. We welcome and encourage submissions
+If none of the authors meet this qualification, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe827colORXf495aAXCOgN8gjCD52dcL4-hiPAoygmfyMDkiw/viewform) and ML4H organizers will reach out whether the submission is exempt from the requirement. We welcome and encourage submissions
 from first-time contributors at ML4H. Papers co-authored by Area Chairs, Senior Area Chairs, or ML4H
 2026 organizers are exempt from this requirement.
 
