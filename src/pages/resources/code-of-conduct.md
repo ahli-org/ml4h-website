@@ -33,7 +33,7 @@ This policy applies to official symposium venues — physical and virtual — bu
 
 ### Reporting and enforcement
 
-Organizers may impose warnings, expulsion without refund, future bans, or institutional reporting. Participants should report incidents to [info@ml4h.cc](mailto:info@ml4h.cc). The symposium guarantees investigation within 24 hours for onsite complaints and two weeks otherwise, with confidentiality protections and no retaliation against good-faith reporters.
+Organizers may impose warnings, expulsion without refund, future bans, or institutional reporting. Participants should report incidents to [ml4h@ahli.cc](mailto:ml4h@ahli.cc). The symposium guarantees investigation within 24 hours for onsite complaints and two weeks otherwise, with confidentiality protections and no retaliation against good-faith reporters.
 
 <div class="btn-row">
   <a class="btn btn-outline" href="../community-guidelines/">Community Guidelines</a>
