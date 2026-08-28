@@ -162,13 +162,13 @@ lead: Common questions about submitting to and attending ML4H 2026.
 
 <div class="faq-item">
 <h3>What support do you offer for authors affected by travel restrictions?</h3>
-<p>We can provide formal documentation including formal invitation letters, proof of event participation, and letters of support explaining the goals of the event, and the attendee’s role. In certain circumstances, authors who are unable to attend in person due to documented circumstances may be eligible for a reduced registration fee. All registration fees will be non-refundable beginning 14 business days prior to the event.</p>
+<p>We can provide formal documentation including formal invitation letters, proof of event participation, and letters of support explaining the goals of the event, and the attendee’s role. <strong>If all authors of an accepted work are unable to attend in person</strong> due to documented travel restrictions, a reduction in registration fee may be available. All registration fees will be non-refundable beginning 14 business days prior to the event. <strong>Eligibility for reduced registration fees will be determined after decisions are sent in late October. Appropriate documentation will be required.</strong></p>
 </div>
 </div>
 
 <div class="faq-item">
 <h3>Will there be a virtual option to attend ML4H this year?</h3>
-<p><strong>ML4H is an entirely in-person event.</strong> In certain circumstances, subject to approval from the ML4H organizing committee and AHLI, virtual, asynchronous poster presentations may be available fotr authors of accepted work affected by political restrictions that impact their travel. </p>
+<p>ML4H is an entirely in-person event. In certain circumstances, subject to approval from the ML4H organizing committee and AHLI, asynchronous poster presentations may be available for authors of accepted work affected by political restrictions that impact their travel. <strong> Eligibility for asynchronous presentation will be determined after decisions have gone out in late October.</strong></p>
 </div>
 </div>
 
