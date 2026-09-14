@@ -37,7 +37,15 @@ Upon receiving assignments, reviewers must immediately report any conflicts of i
 
 ## Confidentiality
 
-Do not discuss or distribute submissions, reviews, or any ideas from the submissions outside of the review process. The process is double-blind: authors and reviewers do not know each other's identities, though assigned reviewers and area chairs can see each other's identities.
+Reviewers, area chairs, and program chairs must keep everything relating to the review process confidential. Do not share, discuss, or disclose any information related to submissions with anyone, including any LLMs or other AI assistants. You may not use ideas, code, or results from submissions in your own work unless and until they become publicly available and the author has granted the appropriate permission or license covering your intended use. Code submitted for review may not be distributed to anyone, including any LLMs or other AI assistants, and may not be used for any purpose other than the review process. If a reviewer or area chair needs additional support via an external reviewer, they should be formally invited through OpenReview. Reviews and discussions are confidential in the same way submissions are, and you remain fully responsible for the content of your review.
+
+Finally, reviewer and area chair assignments are made to ensure that there are no conflicts of interest. Reviewers and area chairs should not discuss any of their assigned papers with other reviewers or area chairs that are not assigned to the same submission. It is also a violation for reviewers and area chairs to ask other reviewers or area chairs for information about their own submissions as authors. The process is double-blind: authors and reviewers do not know each other’s identities, though assigned reviewers and area chairs can see each other’s identities.
+
+## Generative AI Policy
+
+ML4H prohibits the use of generative AI tools, including LLMs and other AI assistants, in reviewing. Privileged information — such as the submissions themselves, reviews of the submissions, and discussions about the submissions — may only be used for the purpose of reviewing. Therefore, we cannot allow this information to be submitted to external services such as generative AI tools.
+
+The reviewing process is meant to obtain reviews from peer researchers who have read, understood, and evaluated the correctness and merits of the submissions. The credibility of ML4H is damaged if reviews are produced using generative AI tools such as LLMs or other AI assistants, whether they are accessed via an external service or on a local machine. This applies to reviews, meta-reviews, and discussion posts, and to all reviewers, area chairs, and program chairs.
 
 ## Format
 
