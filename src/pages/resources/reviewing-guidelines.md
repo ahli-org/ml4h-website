@@ -7,18 +7,18 @@ lead: Thank you for serving as a reviewer or area chair for ML4H. Your contribut
 
 ## Timeline
 
-| Milestone | Date |
+| Milestone | Date (subject to change) |
 | --- | --- |
-| Fill out the questionnaire | TBA |
-| Submission deadline | TBA |
-| Reviews assigned | TBA |
-| Reviews due | TBA |
-| Reviews available to authors | TBA |
-| Author private rebuttal period | TBA |
-| Author–Reviewer discussion period | TBA |
-| AC–Reviewer discussion period | TBA |
-| Meta-reviews due | TBA |
-| Decision released | TBA |
+| Fill out the questionnaire | Sept. 10 |
+| Submission deadline | Sept. 10 |
+| Reviews assigned | Sept. 16 |
+| Reviews due | Sept. 28 |
+| Reviews available to authors | Oct. 5 |
+| Author private rebuttal period | Oct. 5-12 |
+| Author–Reviewer discussion period | Oct. 12-17 |
+| AC–Reviewer discussion period | Oct. 17-20 |
+| Meta-reviews due | Oct. 20 |
+| Decision released | Oct. 22 |
 
 ## Tracks
 
