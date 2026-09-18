@@ -21,6 +21,7 @@ export const SITE = {
   tagline: 'Machine Learning for Health',
   dates: 'December 6–7, 2026',
   deadline: 'September 10, 2026',
+  decisions: 'October 22, 2026',
   location: 'Sydney, Australia',
   email: 'ml4h@ahli.cc',
 };

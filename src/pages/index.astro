@@ -9,7 +9,7 @@ const facts = [
   { k: 'Location', v: SITE.location },
   { k: 'Format', v: 'In-person symposium' },
   { k: 'Submission Deadline', v: SITE.deadline },
-  { k: 'Submission Portal', v: 'Opening soon' },
+  { k: 'Decisions Released', v: SITE.decisions },
   { k: 'Contact', v: SITE.email },
 ];
 
@@ -45,7 +45,7 @@ const tiers = [
         and practice of ML for health.
       </p>
       <div class="btn-row">
-        <a class="btn btn-primary" href={url('submit/call-for-papers')}>Call for Participation</a>
+        <span class="btn btn-primary btn-disabled" aria-disabled="true">Register (coming soon)</span>
         <a class="btn btn-ghost" href="http://eepurl.com/jsz3P2" target="_blank" rel="noopener noreferrer">Sign Up for Emails</a>
       </div>
     </div>
@@ -66,12 +66,16 @@ const tiers = [
   <section class="section">
     <div class="wrap">
       <div class="cta">
-        <h2>Submit your work to ML4H 2026</h2>
-        <p>We invite submissions of research papers, demonstrations, and applications to the ML4H mentorship program.</p>
+        <h2>Reviewing is underway</h2>
+        <p>
+          Paper and demonstration submissions are now closed. Reviews are in progress: the author
+          response period runs October 5&ndash;12, and decisions are released on {SITE.decisions}.
+          Career Mentorship applications remain open until October 26.
+        </p>
         <div class="btn-row">
-          <a class="btn btn-primary" href={url('submit/call-for-papers')}>Call for Participation</a>
-          <a class="btn btn-ghost" href={url('submit/mentorship-programs')}>Mentorship Programs</a>
-          <a class="btn btn-outline" href={url('resources/writing-guidelines')}>Writing Guidelines</a>
+          <a class="btn btn-primary" href={url('resources/reviewing-guidelines')}>Reviewing Guidelines</a>
+          <a class="btn btn-ghost" href={url('submit/mentorship-programs')}>Career Mentorship</a>
+          <a class="btn btn-outline" href={url('submit/call-for-papers')}>Call for Participation</a>
         </div>
       </div>
     </div>

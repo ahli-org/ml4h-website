@@ -347,6 +347,11 @@ a:hover { color: var(--teal); }
 .cta .btn-primary { background: #fff; color: var(--indigo); }
 .hero .btn-primary:hover,
 .cta .btn-primary:hover { background: rgba(255,255,255,.88); color: var(--indigo); }
+/* Placeholder for an action that isn't live yet: reads as a button, isn't one. */
+.btn-disabled { cursor: default; opacity: .62; }
+.btn-disabled:active { transform: none; }
+.hero .btn-primary.btn-disabled:hover,
+.cta .btn-primary.btn-disabled:hover { background: #fff; color: var(--indigo); }
 .btn-ghost {
   background: transparent; color: #fff;
   border: 1px solid rgba(255,255,255,.45);
