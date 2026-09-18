@@ -27,7 +27,9 @@ const tiers = [
   {
     tier: 'silver',
     label: 'Silver',
-    sponsors: [],
+    sponsors: [
+      { name: 'ADIA Lab', url: 'https://www.adialab.ae/', logo: 'logos/adia.png' },
+    ],
   },
 ];
 ---
@@ -91,7 +93,13 @@ const tiers = [
             <div class="sponsor-grid">
               {t.sponsors.map((s: any) => (
                 <article class="sponsor-card">
-                  <span class="sponsor-name">{s.name}</span>
+                  {s.logo ? (
+                    <a href={s.url} target="_blank" rel="noopener noreferrer">
+                      <img class="sponsor-logo" src={`${base}${s.logo}`} alt={s.name} width="924" height="190" loading="lazy" />
+                    </a>
+                  ) : (
+                    <span class="sponsor-name">{s.name}</span>
+                  )}
                 </article>
               ))}
             </div>

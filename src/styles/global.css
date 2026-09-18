@@ -565,8 +565,8 @@ a:hover { color: var(--teal); }
 .sponsor-tier--gold    .sponsor-tier-badge { background: #fff8e0; color: #7a4f00; }
 .sponsor-tier--silver  .sponsor-tier-badge { background: #f3f4f7; color: #4a4d62; }
 .sponsor-grid {
-  display: grid; gap: 1.3rem;
-  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  display: grid; gap: 1.3rem; justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 24rem));
 }
 .sponsor-tier--diamond .sponsor-grid { grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr)); }
 .sponsor-card {
@@ -578,8 +578,10 @@ a:hover { color: var(--teal); }
 .sponsor-tier--gold    .sponsor-card { border-color: #e0ce88; }
 .sponsor-card a { display: block; }
 .sponsor-logo {
-  display: block; margin: 0 auto .2rem;
-  max-width: 16rem; width: 100%; height: auto;
+  display: block; margin: 0 auto;
+  max-width: 15rem; width: 100%;
+  max-height: 4rem; height: auto;
+  object-fit: contain;
 }
 .sponsor-name { font-family: var(--serif); font-weight: 600; font-size: 1.3rem; color: var(--ink); }
 .sponsor-card p { margin: 1rem 0 0; font-size: .95rem; color: var(--ink-soft); }
