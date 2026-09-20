@@ -776,3 +776,58 @@ a:hover { color: var(--teal); }
   .sidebar { transition: none; }
   .btn { transition: none; }
 }
+
+/* ---- Program schedule (attend/schedule) ---------------------------------- */
+.sched-day { margin: 0 0 2.6rem; }
+.sched-day + .sched-day { padding-top: .6rem; }
+.sched-daybar {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: .6rem;
+  padding-bottom: .6rem; margin-bottom: .2rem;
+  border-bottom: 2px solid var(--line);
+}
+.sched-daybar h2 {
+  font-family: var(--serif); font-weight: 600; font-size: 1.28rem;
+  color: var(--ink); margin: 0;
+}
+.sched-daybar .sched-date {
+  font-size: .95rem; color: var(--ink-faint);
+}
+.sched-table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+.sched-table th, .sched-table td {
+  text-align: left; padding: .68rem .8rem; vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+.sched-table thead th {
+  font-size: .7rem; text-transform: uppercase; letter-spacing: .08em;
+  color: var(--ink-faint); font-weight: 600; padding-top: .8rem;
+}
+.sched-table tbody tr:last-child td { border-bottom: none; }
+.sched-time {
+  white-space: nowrap; font-variant-numeric: tabular-nums;
+  font-weight: 600; color: var(--teal); width: 7rem;
+}
+.sched-dur {
+  white-space: nowrap; font-variant-numeric: tabular-nums;
+  color: var(--ink-faint); width: 6rem; font-size: .88rem;
+}
+.sched-what { color: var(--ink); }
+.sched-what .sched-sub {
+  display: block; color: var(--ink-faint); font-size: .85rem; margin-top: .12rem;
+}
+/* Muted rows for breaks, meals, and logistics */
+.sched-table tr.is-break { background: var(--paper-2); }
+.sched-table tr.is-break .sched-time { color: var(--ink-faint); font-weight: 600; }
+.sched-table tr.is-break .sched-what { color: var(--ink-soft); }
+
+@media (max-width: 640px) {
+  .sched-table thead { display: none; }
+  .sched-table tr {
+    display: grid; grid-template-columns: 6.4rem 1fr;
+    gap: 0 .7rem; padding: .7rem 0; border-bottom: 1px solid var(--line);
+  }
+  .sched-table td { border: none; padding: 0; }
+  .sched-time { grid-column: 1; grid-row: 1; width: auto; }
+  .sched-dur  { grid-column: 1; grid-row: 2; width: auto; }
+  .sched-what { grid-column: 2; grid-row: 1 / span 2; }
+  .sched-table tr.is-break { padding-left: .6rem; padding-right: .6rem; border-radius: 6px; }
+}
