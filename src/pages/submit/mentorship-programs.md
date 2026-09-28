@@ -7,8 +7,8 @@ lead: Opportunities for early-career researchers to receive feedback, guidance, 
 
 ML4H is proud to offer three distinct mentorship programs designed to support individuals at various stages of their careers in machine learning and healthcare.
 
-- [**Author Mentorship**](#author-mentorship) **(deadline: August 10th, rolling until September 1st)**
-- [**Reviewer Mentorship**](#reviewer-mentorship) **(deadline: September 14th)**
+- [**Author Mentorship**](#author-mentorship) **(applications closed)**
+- [**Reviewer Mentorship**](#reviewer-mentorship) **(applications closed)**
 - [**Career Mentorship**](#career-mentorship) **(deadline: October 26th)**
 
 <div class="callout">
@@ -60,19 +60,10 @@ mentorship program and depend on the level of feedback.
 
 ### Apply
 
-<div class="btn-row">
-  <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc8oE1i1OoWhlkOToayM04s3x6_vxqGn0zl6dHLGs309vNnlA/viewform?usp=publish-editor">Sign up to be a mentee</a>
-  <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd4IHQxApcKiic4mxa-6i_arPMKi596gn1fObneKjI9z93Urg/viewform?usp=publish-editor">Sign up to be a mentor</a>
-</div>
-
-**Application deadline:** August 10, 2026, AoE (rolling)
-
 <div class="callout">
   <p>
-    Applications will continue to be accepted on a rolling basis. After August 10, when all mentors
-    have been assigned, new applicants will be added to a waitlist until new mentors can be
-    identified. <strong>As the Author Mentorship Program ends on September 10, new mentee applicants
-    on the waitlist may not receive a match in time for the ML4H submission deadline.</strong>
+    <strong>Applications for the 2026 Author Mentorship Program are now closed.</strong>
+    The application deadline was August 10, 2026 (rolling until September 1).
   </p>
 </div>
 
@@ -124,14 +115,12 @@ focus on ensuring that the mentee's reviews are high-quality, constructive, and 
 
 ### Apply
 
-If you are interested in participating in the reviewer mentorship program as a mentor/mentee,
-please sign up using the following form:
-
-<div class="btn-row">
-  <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScal8-yH3ebEHKMk8wXIvdg_aNcKQX70LcU1XzdpmJuMtqJHw/viewform?usp=publish-editor">Sign up to be a mentor or mentee</a>
+<div class="callout">
+  <p>
+    <strong>Applications for the 2026 Reviewer Mentorship Program are now closed.</strong>
+    The application deadline was September 14, 2026.
+  </p>
 </div>
-
-**Application deadline:** September 14, 2026 AoE
 
 ### Detailed Expectations
 
