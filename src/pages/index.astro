@@ -17,7 +17,9 @@ const tiers = [
   {
     tier: 'diamond',
     label: 'Diamond',
-    sponsors: [],
+    sponsors: [
+      { name: 'Google', url: 'https://www.google.com/', logo: 'logos/google.png' },
+    ],
   },
   {
     tier: 'gold',
@@ -98,7 +100,7 @@ const tiers = [
                 <article class="sponsor-card">
                   {s.logo ? (
                     <a href={s.url} target="_blank" rel="noopener noreferrer">
-                      <img class="sponsor-logo" src={`${base}${s.logo}`} alt={s.name} width="924" height="190" loading="lazy" />
+                      <img class="sponsor-logo" src={`${base}${s.logo}`} alt={s.name} loading="lazy" />
                     </a>
                   ) : (
                     <span class="sponsor-name">{s.name}</span>
