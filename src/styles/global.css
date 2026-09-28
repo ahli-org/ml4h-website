@@ -430,6 +430,22 @@ a:hover { color: var(--teal); }
 }
 .person-links a:hover { border-color: var(--purple); background: var(--paper-2); }
 
+/* Keynote speaker: portrait photo beside a long-form bio */
+.speaker {
+  display: flex; gap: 1.6rem; align-items: flex-start;
+  margin: 1.8rem 0 2rem;
+}
+.speaker-photo {
+  flex: 0 0 auto;
+  width: 9.5rem; height: auto;
+  border-radius: 10px; box-shadow: var(--shadow-sm);
+}
+.speaker-body { min-width: 0; }
+.speaker-body h3 { margin: 0 0 .2rem; }
+@media (max-width: 560px) {
+  .speaker { flex-direction: column; gap: 1rem; }
+}
+
 .section-lead { margin-bottom: 1.5rem; max-width: 40rem; }
 
 /* ---- Profile cards (cohort / instructor grids) --------------------------- */
