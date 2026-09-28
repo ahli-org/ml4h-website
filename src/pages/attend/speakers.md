@@ -38,6 +38,45 @@ and perspectives with the community.
   </div>
 </article>
 
+<article class="speaker">
+  <img class="speaker-photo" src="../../people/ben.jpg" alt="Benjamin Glicksberg" width="300" height="430" loading="lazy" />
+  <div class="speaker-body">
+    <h3>Benjamin Glicksberg</h3>
+    <p class="person-affil">Associate Professor, Icahn School of Medicine at Mount Sinai</p>
+    <p class="person-bio">
+      Benjamin Glicksberg, Ph.D. is an Associate Professor and the Chief of
+      Entrepreneurship and Innovation for the Windreich Department of Artificial
+      Intelligence and Human Health at the Icahn School of Medicine at Mount Sinai.
+      He is the Founding Director of the Center for AI in Children's Health and is
+      the Director of the Digital Discovery Program within the Hasso Plattner
+      Institute for Digital Health. Formerly, he served on the leadership team as
+      the VP and Head of Data Science and Machine Learning of Character Biosciences,
+      a precision health drug development company. He co-founded ArtemisAI Labs,
+      which delivers real-time, objective health assessments at the bedside using
+      audiovisual monitoring, focusing primarily in neonatal care. Dr. Glicksberg
+      received his Ph.D. from the Icahn School of Medicine at Mount Sinai and
+      completed post-doctoral work at the University of California, San Francisco (UCSF).
+    </p>
+  </div>
+</article>
+
+<article class="speaker">
+  <img class="speaker-photo" src="../../people/adam.jpg" alt="Adam Dunn" width="300" height="430" loading="lazy" />
+  <div class="speaker-body">
+    <h3>Adam Dunn</h3>
+    <p class="person-affil">Professor of Biomedical Informatics, The University of Sydney</p>
+    <p class="person-bio">
+      Adam Dunn is Professor of Biomedical Informatics in the Faculty of Medicine
+      and Health, The University of Sydney. His research focus is in applications
+      of AI in health, aimed at improving the safety and fairness of the AI tools
+      developed and deployed for use in clinical, public health, and medical
+      research. Adam is Editor-in-Chief for npj Digital Public Health, Deputy
+      Editor for npj Digital Medicine, and has been working in areas related to
+      health informatics for nearly 20 years.
+    </p>
+  </div>
+</article>
+
 <div class="callout">
   <p><strong>More speakers will be announced soon.</strong> Follow us for updates.</p>
 </div>
