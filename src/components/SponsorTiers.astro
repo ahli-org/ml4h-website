@@ -1,0 +1,39 @@
+---
+// Sponsor logos grouped by tier. Data lives in src/lib/sponsors.ts.
+import { SPONSOR_TIERS, slotsAvailable } from '../lib/sponsors';
+
+interface Props {
+  // Show "N of M slots available" next to tiers with a slot limit.
+  showSlots?: boolean;
+}
+const { showSlots = false } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+---
+{SPONSOR_TIERS.map((t) => {
+  const slots = showSlots ? slotsAvailable(t) : null;
+  return (
+    <div class={`sponsor-tier sponsor-tier--${t.tier}`}>
+      <div class="sponsor-tier-head">
+        <div class="sponsor-tier-badge">{t.label}</div>
+        {slots && <span class="sponsor-tier-slots">{slots}</span>}
+      </div>
+      {t.sponsors.length > 0 ? (
+        <div class="sponsor-grid">
+          {t.sponsors.map((s) => (
+            <article class="sponsor-card">
+              <a href={s.url} target="_blank" rel="noopener noreferrer">
+                {s.logo
+                  ? <img class="sponsor-logo" src={`${base}${s.logo}`} alt={s.name} loading="lazy" />
+                  : <span class="sponsor-name">{s.name}</span>}
+              </a>
+              {s.blurb && <p>{s.blurb}</p>}
+            </article>
+          ))}
+        </div>
+      ) : (
+        <p class="sponsor-placeholder">Sponsor announcements coming soon.</p>
+      )}
+    </div>
+  );
+})}

@@ -1,8 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import SponsorTiers from '../components/SponsorTiers.astro';
 import { SITE, url } from '../lib/site';
-
-const base = import.meta.env.BASE_URL;
 
 const facts = [
   { k: 'Dates', v: SITE.dates },
@@ -11,28 +10,6 @@ const facts = [
   { k: 'Submission Deadline', v: SITE.deadline },
   { k: 'Decisions Released', v: SITE.decisions },
   { k: 'Contact', v: SITE.email },
-];
-
-const tiers = [
-  {
-    tier: 'diamond',
-    label: 'Diamond',
-    sponsors: [
-      { name: 'Google', url: 'https://www.google.com/', logo: 'logos/google.png' },
-    ],
-  },
-  {
-    tier: 'gold',
-    label: 'Gold',
-    sponsors: [],
-  },
-  {
-    tier: 'silver',
-    label: 'Silver',
-    sponsors: [
-      { name: 'ADIA Lab', url: 'https://www.adialab.ae/', logo: 'logos/adia.png' },
-    ],
-  },
 ];
 ---
 <BaseLayout title="Home">
@@ -91,28 +68,7 @@ const tiers = [
         ML4H 2026 is made possible by the generous support of our sponsors.
       </p>
 
-      {tiers.map((t) => (
-        <div class={`sponsor-tier sponsor-tier--${t.tier}`}>
-          <div class="sponsor-tier-badge">{t.label}</div>
-          {t.sponsors.length > 0 ? (
-            <div class="sponsor-grid">
-              {t.sponsors.map((s: any) => (
-                <article class="sponsor-card">
-                  {s.logo ? (
-                    <a href={s.url} target="_blank" rel="noopener noreferrer">
-                      <img class="sponsor-logo" src={`${base}${s.logo}`} alt={s.name} loading="lazy" />
-                    </a>
-                  ) : (
-                    <span class="sponsor-name">{s.name}</span>
-                  )}
-                </article>
-              ))}
-            </div>
-          ) : (
-            <p class="sponsor-placeholder">Sponsor announcements coming soon.</p>
-          )}
-        </div>
-      ))}
+      <SponsorTiers />
 
       <div class="btn-row">
         <a class="btn btn-outline" href={url('sponsors')}>Sponsorship information</a>

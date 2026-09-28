@@ -1,26 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
-
-const tiers = [
-  {
-    tier: 'diamond',
-    label: 'Diamond',
-    sponsors: [] as { name: string; url: string; logo?: string; blurb?: string }[],
-  },
-  {
-    tier: 'gold',
-    label: 'Gold',
-    sponsors: [] as { name: string; url: string; logo?: string; blurb?: string }[],
-  },
-  {
-    tier: 'silver',
-    label: 'Silver',
-    sponsors: [] as { name: string; url: string; logo?: string; blurb?: string }[],
-  },
-];
-
-const base = import.meta.env.BASE_URL;
+import SponsorTiers from '../components/SponsorTiers.astro';
+import { slotsAvailable, sponsorTier } from '../lib/sponsors';
 
 // Principles for a transparent and appropriate relationship with funders.
 const principles = [
@@ -38,7 +20,7 @@ const levels = [
     tier: 'diamond',
     name: 'Diamond Sponsor',
     price: '$20,000 USD',
-    slots: 'Two (2) slots available',
+    slots: slotsAvailable(sponsorTier('diamond')),
     reg: 'Free registration for up to <strong>10</strong> representatives from your organization',
     groups: [
       {
@@ -287,27 +269,7 @@ const bundles = [
         ML4H 2026 is made possible by the generous support of our sponsors. We are
         grateful for their commitment to advancing machine learning for health.
       </p>
-      {tiers.map((t) => (
-        <div class={`sponsor-tier sponsor-tier--${t.tier}`}>
-          <div class="sponsor-tier-badge">{t.label}</div>
-          {t.sponsors.length > 0 ? (
-            <div class="sponsor-grid">
-              {t.sponsors.map((s) => (
-                <article class="sponsor-card">
-                  <a href={s.url} rel="noopener" target="_blank" aria-label={s.name}>
-                    {s.logo
-                      ? <img class="sponsor-logo" src={`${base}${s.logo}`} alt={`${s.name} logo`} loading="lazy" />
-                      : <span class="sponsor-name">{s.name}</span>}
-                  </a>
-                  {s.blurb && <p>{s.blurb}</p>}
-                </article>
-              ))}
-            </div>
-          ) : (
-            <p class="sponsor-placeholder">Sponsor announcements coming soon.</p>
-          )}
-        </div>
-      ))}
+      <SponsorTiers showSlots />
     </div>
   </section>
 
