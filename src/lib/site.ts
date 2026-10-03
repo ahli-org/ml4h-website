@@ -24,6 +24,7 @@ export const SITE = {
   decisions: 'October 22, 2026',
   location: 'Sydney, Australia',
   email: 'ml4h@ahli.cc',
+  register: 'https://ahli.cc/ml4h26-register/',
 };
 
 export type NavChild = { label: string; path: string };

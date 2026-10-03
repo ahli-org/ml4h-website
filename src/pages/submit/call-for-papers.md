@@ -346,7 +346,7 @@ which governs how submission and review data may be used for operational purpose
 ## Registration Requirement
 
 To promote community interaction, at least one presenting author of accepted works must register for
-the event. Registration details are forthcoming.
+the event. Register at [ahli.cc/ml4h26-register](https://ahli.cc/ml4h26-register/).
 
 ## Contact Us
 
