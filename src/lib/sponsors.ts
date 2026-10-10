@@ -30,6 +30,7 @@ export const SPONSOR_TIERS: SponsorTier[] = [
     label: 'Silver',
     sponsors: [
       { name: 'ADIA Lab', url: 'https://www.adialab.ae/', logo: 'logos/adia.png' },
+      { name: 'Sprinter Health', url: 'https://www.sprinterhealth.com/', logo: 'logos/sprinter-health-logo-wordmark.svg' },
     ],
   },
 ];
