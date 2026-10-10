@@ -9,7 +9,7 @@ Submissions are considered for two distinct tracks: the archival **_Proceedings_
 and the non-archival **_Findings_** track.
 
 In response to the growing community, ML4H has transitioned from a NeurIPS-affiliated workshop into a
-standalone symposium. ML4H 2026 represents a continuation of [prior ML4H events](https://ahli.cc/ml4h/past-events/)
+standalone symposium. ML4H 2026 represents a continuation of [prior ML4H events](/about/past-events/)
 and will continue to be held in December directly before NeurIPS. ML4H 2026 will feature:
 
 - [Author, Reviewer and Career Mentorship Programs](../mentorship-programs/)
@@ -91,14 +91,14 @@ featured at the event's poster session.
 
 Submissions to the main tracks will undergo double-blind peer review, assessed based on their technical
 merit and contribution to the event. More details on how to write an excellent ML4H full paper or
-findings paper can be found [here](https://ml4h.cc/2023/writing_guidelines.html).
+findings paper can be found [here](/resources/writing-guidelines/).
 
 ### (A) Proceedings Track
 
 Excellent ML4H Proceedings papers should be compelling, cohesive works with a high degree of technical
 sophistication as well as clear and high-impact relevance to health. Accepted proceedings papers will
 be published in the Proceedings for Machine Learning Research (PMLR). Past proceedings can be found
-[here](https://ml4h.ahli.cc/about/proceedings/).
+[here](/about/proceedings/).
 Proceedings papers can be up to 8 pages at submission (excluding references and appendices). If your
 submission is accepted, you will be allowed 1 additional content page for the camera-ready version.
 

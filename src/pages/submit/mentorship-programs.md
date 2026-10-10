@@ -165,12 +165,12 @@ Both mentors and mentees are required to:
 
 ### Resources
 
-- ML4H [Reviewing Guidelines](../../resources/reviewing-guidelines/)
-- [Writing a good ML4H paper](../../resources/writing-guidelines/)
+- ML4H [Reviewing Guidelines](/resources/reviewing-guidelines/)
+- [Writing a good ML4H paper](/resources/writing-guidelines/)
 - How to write a peer review:
   - [PLOS](https://plos.org/resource/how-to-write-a-peer-review/)
   - [ACL](https://acl2017.wordpress.com/2017/02/23/last-minute-reviewing-advice/)
-  - Other ML conference reviewer guidelines (for inspiration only; follow the ML4H reviewer guidelines on any specific instructions): [NeurIPS](https://neurips.cc/Conferences/2021/Reviewer-Guidelines), [ICML](https://icml.cc/Conferences/2020/ReviewerGuidelines), [ICLR](https://iclr.cc/Conferences/2021/ReviewerGuide), [AAAI](https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2019/09/AAAI-20-Reviewing-Guidelines.pdf)
+  - Other ML conference reviewer guidelines (for inspiration only; follow the ML4H reviewer guidelines on any specific instructions): [NeurIPS](https://neurips.cc/Conferences/2021/Reviewer-Guidelines), [ICML](https://icml.cc/Conferences/2020/ReviewerGuidelines), [ICLR](https://iclr.cc/Conferences/2021/ReviewerGuide)
 - [Tips for Reviewing Research Papers](https://psc-g.github.io/posts/mentoring/reviewing/)
 - [How to write a thorough peer review](https://www.nature.com/articles/d41586-018-06991-0)
 
