@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="google-site-verification" content="B2mVlLOsODDDoAPs7zrMUb95ql1_b4XpFaNEz_WBQf0" />
+
+    <!-- External Javascript libs_ext  -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@5/dist/d3.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.3/dist/handlebars.min.js"
+            integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha256-WqU1JavFxSAMcLP2WIOI+GB2zWmShMI82mTpLDcqFUg="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/min/moment.min.js"
+            integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.28/builds/moment-timezone-with-data.min.js"
+            integrity="sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww="
+            crossorigin="anonymous"></script>
+
+
+    <!-- Library libs_ext -->
+    <script src="static/js/libs_ext/typeahead.bundle.js"></script>
+
+
+    <!--    Internal Libs -->
+    <script src="static/js/data/api.js"></script>
+
+    
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha256-YLGeXaapI0/5IgZopewRJcFXomhRMlYYjugPLSyNjTY="
+          crossorigin="anonymous">
+
+    <!-- External Fonts (no google for china) -->
+    <link
+            href="static/css/Lato.css"
+            rel="stylesheet"
+    />
+    <link href="static/css/Exo.css" rel="stylesheet"/>
+    <link
+            href="static/css/Cuprum.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/css/main.css"/>
+<!--    <link rel="stylesheet" href="static/css/fa_regular.css"/>-->
+    <link rel="stylesheet" href="static/css/fa_solid.css"/>
+    <link rel="stylesheet" href="static/css/lazy_load.css"/>
+    <link rel="stylesheet" href="static/css/typeahead.css"/>
+
+    <title>ML4H: Speakers</title>
+    
+</head>
+
+<body>
+<!-- NAV -->
+<div id="nav-placeholder">
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+
+
+<!-- User Overrides -->
+
+
+
+<div class="container">
+    <!-- Tabs -->
+    <div class="tabs">
+        
+  <div class="page-header text-center">
+    <h1>Speakers</h1>
+  </div>
+
+    </div>
+    <!-- Content -->
+    <div class="content">
+        
+  <div class="page-content">
+
+  <div class="content">
+    <!-- THIS PAGE SRC IS AUTO GENERATED. At terminal: $ make organizers -->
+
+<div class="container">
+<div class="row display-flex">
+
+    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#charles">
+        <img 
+            src="static/images/speakers/charles.jpg"
+            alt="Charles Delahunt headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Charles Delahunt</h5>
+            <p>Global Health Labs
+              <br />
+              Senior Research Scientist
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+  
+    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#elaine">
+        <img 
+            src="static/images/speakers/elaine.jpg"
+            alt="Elaine Nsoesie headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Elaine Nsoesie</h5>
+            <p>Boston University
+              <br />
+              Associate Professor
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+  
+    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#emma">
+        <img 
+            src="static/images/speakers/emma.jpg"
+            alt="Emma Pierson headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Emma Pierson</h5>
+            <p>Cornell Tech
+               <br />
+              Assistant Professor
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+  
+    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#marinka">
+        <img 
+            src="static/images/speakers/marinka.jpg"
+            alt="Marinka Zitnik headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Marinka Zitnik</h5>
+            <p>Harvard University
+              <br />
+               Assistant Professor
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+
+    <!-- 6/12 = 1/2 width on mobile, 4/12 = 1/3 screen on laptop -->
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#milind">
+        <img 
+            src="static/images/speakers/milind.jpg"
+            alt="Milind Tambe headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Milind Tambe</h5>
+            <p>Harvard University
+              <br />
+              Professor
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#monica">
+        <img 
+            src="static/images/speakers/monica.jpg"
+            alt="Monica Agrawal headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Monica Agrawal</h5>
+            <p>Duke University
+              <br />
+            Incoming Assistant Professor
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#stefan">
+        <img 
+            src="static/images/speakers/stefan.jpg"
+            alt="Stefan Harrer headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Stefan Harrer</h5>
+            <p>Science Digital, CSIRO
+              <br />
+            Director AI for Science 
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+
+    <div class="col-xs-6 col-md-4"> 
+    <div class="thumbnail">
+        <a href="#tao">
+        <img 
+            src="static/images/speakers/tao.jpg"
+            alt="Tao Tu headshot"
+            style="width:88%"
+            align="center">
+        <div class="caption">
+            <h5>Tao Tu</h5>
+            <p>Google Research
+              <br />
+            Software Engineer
+            </p>
+            <p></p>
+        </div>
+        </a>
+    </div>
+    </div>
+
+  
+</div>
+</div>
+
+<p><br /></p>
+<h1>Bios</h1>
+<h3><a id="charles"></a> Charles Delahunt</h3>
+<p> 
+Charles Delahunt is a senior research scientist on the ML team at Global Health Labs, an innovation and technology development group.  He has over 10 years of experience applying ML to global health challenges, including projects on malaria diagnosis, vitamin A testing via pupillary videos, helminth and Loa loa detection, lung ultrasound, biometric sensor analysis, and pregnancy risk assessment. He has also held a postdoc researching ML methods at the University of Washington's applied math department. He serves on the scientific subcommittee for schistosomiasis at the American Society of Tropical Medicine and Hygiene; has advised the WHO on automated digital microscopy for malaria; serves on the board of RISE-MICCAI, which works to increase participation of LMIC-based researchers in the ML community; and has co-organized multiple conference workshops on applying ML to global health use cases.
+</p>
+    
+<h3><a id="elaine"></a> Elaine Nsoesie</h3>
+<!-- <p>Recent advances in training deep learning algorithms have demonstrated potential to accommodate the complex variations present in medical data. In this talk, I will describe technical advancements and challenges in the development and clinical application of deep learning algorithms designed to interpret medical images. I will also describe advances and current challenges in the deployment of medical imaging deep learning algorithms into practice. This talk presents work that is jointly done with Matt Lungren, Curt Langlotz, Nigam Shah, and several more collaborators.</p> -->
+<p> Elaine O. Nsoesie is an Associate Professor at Boston University School of Public Health and a leading voice in the use of data and technology to advance health equity. She led the Racial Data Tracker project at Boston University's Center for Antiracist Research and serves as a Senior Advisor to the Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity (AIM-AHEAD) program at the National Institutes of Health. Dr. Nsoesie has published extensively on the use of data from social media, search engines, remote sensors and mobile phones for public health surveillance and the implications of bias in health data and algorithms. She is passionate about increasing representation of underrepresented communities in data science. She completed her PhD in Computational Epidemiology from Virginia Tech and held postdoctoral positions at Harvard Medical School and Boston Children's Hospital.</p>
+    
+<h3><a id="emma"></a> Emma Pierson</h3>
+<!-- <p>Health disparities in the United States are one of the largest factors in reducing the health of the population. Disparities means some groups have lower life expectancy, are dying at higher rates from COVID-19, and utilize less mental health services, to name just a few examples. The future of medicine will be based on Artificial Intelligence and new technological platforms that promise to improve outcomes and reduce cost. Our role as AI researchers should be to ensure that these new technologies also reduce health disparities. In this talk I will describe recent work showing how we can work to reduce health disparities in the future of medicine. By ensuring that our task, datasets, algorithms and evaluations are equitable and representative of all types of patients, we can ensure that the research we develop will reduce health disparities.</p> -->
+<p> Emma Pierson is an assistant professor of computer science at the Jacobs Technion-Cornell Institute at Cornell Tech and the Technion, and a computer science field member at Cornell University. She holds a secondary joint appointment as an Assistant Professor of Population Health Sciences at Weill Cornell Medical College. She develops data science and machine learning methods to study inequality and healthcare. Her work has been recognized by best paper, poster, and talk awards, an NSF CAREER award, a Rhodes Scholarship, Hertz Fellowship, Rising Star in EECS, MIT Technology Review 35 Innovators Under 35, and Forbes 30 Under 30 in Science. Her research has been published at venues including ICML, KDD, WWW, Nature, and Nature Medicine, and she has also written for The New York Times, FiveThirtyEight, Wired, and various other publications.</p>
+    
+<h3><a id="marinka"></a> Marinka Zitnik</h3>
+<!-- <p>Recent advances in training deep learning algorithms have demonstrated potential to accommodate the complex variations present in medical data. In this talk, I will describe technical advancements and challenges in the development and clinical application of deep learning algorithms designed to interpret medical images. I will also describe advances and current challenges in the deployment of medical imaging deep learning algorithms into practice. This talk presents work that is jointly done with Matt Lungren, Curt Langlotz, Nigam Shah, and several more collaborators.</p> -->
+<p>Marinka Zitnik is an Assistant Professor at Harvard University in the Department of Biomedical Informatics with additional appointments at the Kempner Institue for the Study of Natural and Artificial Intelligence, Broad Institute of MIT and Harvard, and Harvard Data Science. Dr. Zitnik investigates the foundations of AI to enhance scientific discovery and to realize individualized diagnosis and treatment. Her research won several best paper and research awards, including the Kavli Fellowship of the National Academy of Sciences, awards from International Society for Computational Biology, International Conference in Machine Learning, Bayer Early Excellence in Science, Amazon Faculty Research, Google Faculty Research, and Roche Alliance with Distinguished Scientists. She co-founded Therapeutics Data Commons and is the faculty lead of the AI4Science initiative. 
+ </p>
+
+<h3><a id="milind"></a> Milind Tambe </h3>
+<p>Milind Tambe is Gordon McKay Professor of Computer Science and Director of Center for Research in Computation and Society at Harvard University; concurrently, he is also Principal Scientist and Director for "AI for Social Good" at Google Research. He is recipient of the IJCAI (International Joint Conference on AI) John McCarthy Award,  AAAI (Association for Advancement of AI) Feigenbaum Prize, AAAI Robert S. Engelmore Memorial Lecture Award, AAMAS ACM (Association for Computing Machinery) Autonomous Agents Research Award,  INFORMS ( Institute for Operations Research and the Management Sciences) Wagner prize for excellence in Operations Research practice and MORS (Military Operations Research Society) Rist Prize. He is a fellow of AAAI and ACM.  For his work on AI and public safety, he has received Columbus Fellowship Foundation Homeland security award and commendations and certificates of appreciation from the US Coast Guard, the Federal Air Marshals Service and airport police at the city of Los Angeles. </p>
+
+<h3><a id="monica"></a> Monica Agrawal </h3>
+<p>Dr. Monica Agrawal is an incoming assistant professor at Duke University, joint between the Department of Biostatistics and Bioinformatics and the Department of Computer Science, as well as the co-founder of a new health technology startup. In her research, she tackles diverse challenges including scalable clinical information extraction, smarter electronic health records, and human-in-the-loop systems. Her work has been published at venues in machine learning, natural language processing, computational health, and human-computer interaction. She has been the recipient of a Takeda Fellowship, a Tau Beta Pi Fellowship, and an MIT EECS Edgerton Fellowship and was named a 2022 Rising Star in EECS.  Dr. Agrawal recently earned her PhD in Computer Science in the Clinical Machine Learning Group at MIT and previously obtained a BS/MS in Computer Science from Stanford University. 
+</p>
+
+<h3><a id="stefan"></a> Stefan Harrer </h3>
+<p>Stefan joined IBM Research at the IBM T. J. Watson Research Center, New York, in 2008 where he worked in partnership with Roche 454 on novel DNA-sequencing technologies. In 2015 he founded the Brain-Inspired Computing Research Program of IBM Research. As IBM Senior Technical Staff Member, Global Lead of Epilepsy Research, Technical Assistant to the VP Cognitive Computing, and Member of the Neuroethics Working Group of the Director of IBM Research, he developed IBM’s R&D strategy for AI in Health and the Life Sciences as well as ethical frameworks for the responsible design and use of AI and neurotechnology in health and medicine. From 2020 to 2023 Stefan managed the data and AI portfolio of Australia’s largest digital health incubator and investor, the $200M Digital Health CRC Ltd., as its Chief Innovation Officer. In 2023 Stefan became the inaugural Director of the AI for Science Program at Australia’s National Science Agency CSIRO. Stefan is a Scientific Advisor to Harvard Medical School at Mass General Brigham and a member of the Advisory Board of European neurotech startup Myelin-H. He holds 71 granted US and international patents in AI, bionanotech and MedTech and has authored over 70 peer-reviewed scientific articles, books, and book chapters. He holds a BSc in Electrical Engineering and Computer Science with a major in Biomedical Engineering, a MSc in Electrical Engineering and Computer Science with a major in Computational Chemistry, a PhD in Electrical Engineering and Computer Science with a major in Nanotechnology (Technical University Munich and Massachusetts Institute of Technology) and an Honours Master’s Degree in Technology Management (Ludwig Maximilians University Munich and UC Berkeley). Stefan is an Adjunct Professor at the University of Technology Sydney, a member of the New York Academy of Sciences and of Forbes Technology Council, and a Senior Member of the IEEE. 
+</p>
+
+<h3><a id="tao"></a> Tao Tu </h3>
+<p>Tao Tu is a software engineer at Google Research. He is currently working on generative AI in biomedicine. He obtained his PhD from Columbia University in Biomedical Engineering. His research was focused on multimodal brain imaging. He worked on machine learning methods to combine information from simultaneously acquired EEG and fMRI in order to understand human cognition and behavior.
+
+</p>
+
+     
+  </div>
+
+    </div>
+</div>
+
+
+
+<!-- Google Analytics -->
+<script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-"
+></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("js", new Date());
+  gtag("config", "UA-");
+</script>
+
+<!-- Footer -->
+<footer class="footer bg-light p-4">
+    <div class="container">
+        <p class="float-right"><a href="#">Back to Top</a></p>
+        <p class="text-center">© 2023 ML4H Organization Committee</p>
+    </div>
+</footer>
+
+<!-- Code for hash tags -->
+<script type="text/javascript">
+  $(document).ready(function () {
+    if (window.location.hash !== "") {
+      $(`a[href="${window.location.hash}"]`).tab("show");
+    }
+
+    $("a[data-toggle='tab']").on("shown.bs.tab", function (e) {
+      const hash = $(e.target).attr("href");
+      if (hash.substr(0, 1) === "#") {
+        const position = $(window).scrollTop();
+        window.location.replace(`#${hash.substr(1)}`);
+        $(window).scrollTop(position);
+      }
+    });
+  });
+</script>
+<!--    <script src="static/js/modules/lazyLoad.js"></script>-->
+
+</body>
+</html>
