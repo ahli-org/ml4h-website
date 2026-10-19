@@ -77,6 +77,28 @@ and perspectives with the community.
   </div>
 </article>
 
+## Perspective speakers
+
+<article class="speaker">
+  <img class="speaker-photo" src="../../people/karin.png" alt="Karin Verspoor" width="1294" height="862" loading="lazy" />
+  <div class="speaker-body">
+    <h3>Karin Verspoor</h3>
+    <p class="person-affil">Distinguished Professor and Executive Dean, School of Computing Technologies, RMIT University</p>
+    <p class="person-bio">
+      Distinguished Professor Karin Verspoor is Executive Dean of the School of
+      Computing Technologies at RMIT University in Melbourne, Australia. She is a
+      Fellow of the Australian Academy of Technological Sciences and Engineering,
+      a Fellow of the Australasian Institute of Digital Health, and a 2021
+      “Brilliant Woman in Digital Health”. She was also selected as a finalist in
+      the Women in AI Australia/New Zealand Awards 2022 for “AI in Innovation”.
+      Karin is passionate about using data and AI to improve health outcomes for
+      people. Her work has a specific emphasis on the use of natural language
+      processing to transform unstructured data in biomedicine, ranging from
+      scientific literature to clinical texts, into actionable information.
+    </p>
+  </div>
+</article>
+
 <div class="callout">
   <p><strong>More speakers will be announced soon.</strong> Follow us for updates.</p>
 </div>

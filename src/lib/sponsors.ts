@@ -23,7 +23,10 @@ export const SPONSOR_TIERS: SponsorTier[] = [
   {
     tier: 'gold',
     label: 'Gold',
-    sponsors: [],
+    slots: 5,
+    sponsors: [
+      { name: 'Kinetic Systems', url: 'https://kineticsystems.ai/', logo: 'logos/kineticsystems.png' },
+    ],
   },
   {
     tier: 'silver',

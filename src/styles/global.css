@@ -438,6 +438,7 @@ a:hover { color: var(--teal); }
 .speaker-photo {
   flex: 0 0 auto;
   width: 9.5rem; height: auto;
+  aspect-ratio: 195 / 280; object-fit: cover; object-position: center top;
   border-radius: 10px; box-shadow: var(--shadow-sm);
 }
 .speaker-body { min-width: 0; }
@@ -601,7 +602,7 @@ a:hover { color: var(--teal); }
   max-width: min(15rem, 100%); max-height: 4rem;
 }
 .sponsor-tier--diamond .sponsor-logo { max-width: min(24rem, 100%); max-height: 6.5rem; }
-.sponsor-tier--gold    .sponsor-logo { max-width: min(19rem, 100%); max-height: 5rem; }
+.sponsor-tier--gold    .sponsor-logo { max-width: min(19rem, 100%); max-height: 6rem; }
 .sponsor-name { font-family: var(--serif); font-weight: 600; font-size: 1.3rem; color: var(--ink); }
 .sponsor-card p { margin: 1rem 0 0; font-size: .95rem; color: var(--ink-soft); }
 
