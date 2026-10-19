@@ -846,3 +846,42 @@ a:hover { color: var(--teal); }
   .sched-what { grid-column: 2; grid-row: 1 / span 2; }
   .sched-table tr.is-break { padding-left: .6rem; padding-right: .6rem; border-radius: 6px; }
 }
+
+/* ---- Photo gallery + lightbox -------------------------------------------- */
+/* Full-bleed 4-column grid, matching the CHIL site's home-page gallery. */
+.section.section--cta { border-top: 0; padding-top: 0; }
+.section.section--gallery { border-top: 0; padding-top: 0; }
+.gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; padding: 0 1.5rem; }
+.gallery-item {
+  display: block; padding: 0; border: 0; background: var(--paper-2); cursor: zoom-in;
+  border-radius: 10px; overflow: hidden;
+}
+.gallery-item img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; transition: transform .3s ease; }
+.gallery-item:hover img,
+.gallery-item:focus-visible img { transform: scale(1.04); }
+.gallery-item:focus-visible { outline: 3px solid var(--indigo); outline-offset: 3px; }
+@media (max-width: 56rem) { .gallery { grid-template-columns: repeat(2, 1fr); gap: 1rem; } }
+
+.lightbox {
+  max-width: 100vw; max-height: 100vh; width: 100%; height: 100%;
+  margin: 0; padding: 0; border: 0; background: transparent;
+  align-items: center; justify-content: center;
+}
+.lightbox[open] { display: flex; }
+.lightbox::backdrop { background: rgba(10,12,16,.9); }
+.lightbox figure { margin: 0; text-align: center; }
+.lightbox figure img {
+  max-width: min(92vw, 1600px); max-height: 84vh; width: auto; height: auto;
+  border-radius: 6px; display: block; margin: 0 auto;
+}
+.lightbox figcaption { color: rgba(255,255,255,.75); font-size: .9rem; margin-top: .6rem; }
+.lightbox-btn {
+  position: absolute; border: 0; cursor: pointer;
+  background: rgba(255,255,255,.12); color: #fff;
+  width: 2.8rem; height: 2.8rem; border-radius: 50%;
+  font-size: 1.8rem; line-height: 1;
+}
+.lightbox-btn:hover { background: rgba(255,255,255,.25); }
+.lightbox-close { top: 1rem; right: 1rem; }
+.lightbox-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
+.lightbox-next { right: 1rem; top: 50%; transform: translateY(-50%); }

@@ -1,0 +1,72 @@
+---
+// Photo gallery from the previous symposium. Thumbnails open a full-size
+// lightbox (native <dialog>) with prev/next navigation and arrow-key support.
+// Images live in public/past-events/photos/<year>/ (full: 1600px long edge)
+// and .../thumbs/ (640px).
+const base = import.meta.env.BASE_URL;
+const year = '2025';
+const dir = `${base}past-events/photos/${year}`;
+
+const photos = [
+  { file: 'keynote', alt: 'A speaker gesturing toward the screen during a talk' },
+  { file: 'panel', alt: 'Four panelists in conversation on stage' },
+  { file: 'main-hall', alt: 'Attendees seated at round tables in the main hall' },
+  { file: 'roundtables', alt: 'Attendees in discussion at round tables' },
+  { file: 'poster-session', alt: 'A presenter explaining a poster to attendees', pos: 'center 30%' },
+  { file: 'award-1', alt: 'An award recipient holding a certificate on stage with organizers', pos: 'center top' },
+  { file: 'award-2', alt: 'An award recipient receiving a certificate on stage', pos: 'center top' },
+  { file: 'reception', alt: 'Attendees mingling at the evening reception' },
+];
+---
+<div class="gallery" data-gallery>
+  {photos.map((p, i) => (
+    <button class="gallery-item" type="button" data-index={i} aria-label={`View photo: ${p.alt}`}>
+      <img src={`${dir}/thumbs/${p.file}.jpg`} alt={p.alt} loading="lazy" decoding="async" style={p.pos && `object-position: ${p.pos}`} />
+    </button>
+  ))}
+</div>
+
+<dialog class="lightbox" data-lightbox aria-label={`ML4H ${year} photos`}>
+  <button class="lightbox-btn lightbox-close" type="button" data-close aria-label="Close">×</button>
+  <button class="lightbox-btn lightbox-prev" type="button" data-prev aria-label="Previous photo">‹</button>
+  <figure>
+    <img data-full alt="" />
+    <figcaption data-caption></figcaption>
+  </figure>
+  <button class="lightbox-btn lightbox-next" type="button" data-next aria-label="Next photo">›</button>
+</dialog>
+
+<script is:inline define:vars={{ photos, dir }}>
+  (() => {
+    const gallery = document.querySelector('[data-gallery]');
+    const dialog = document.querySelector('[data-lightbox]');
+    if (!gallery || !dialog) return;
+    const img = dialog.querySelector('[data-full]');
+    const caption = dialog.querySelector('[data-caption]');
+    let current = 0;
+
+    const show = (i) => {
+      current = (i + photos.length) % photos.length;
+      const p = photos[current];
+      img.src = `${dir}/${p.file}.jpg`;
+      img.alt = p.alt;
+      caption.textContent = `${current + 1} / ${photos.length}`;
+    };
+
+    gallery.querySelectorAll('[data-index]').forEach((btn) =>
+      btn.addEventListener('click', () => {
+        show(Number(btn.dataset.index));
+        dialog.showModal();
+      })
+    );
+    dialog.querySelector('[data-close]').addEventListener('click', () => dialog.close());
+    dialog.querySelector('[data-prev]').addEventListener('click', () => show(current - 1));
+    dialog.querySelector('[data-next]').addEventListener('click', () => show(current + 1));
+    // Click on the backdrop (outside the figure) closes.
+    dialog.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft') show(current - 1);
+      if (e.key === 'ArrowRight') show(current + 1);
+    });
+  })();
+</script>

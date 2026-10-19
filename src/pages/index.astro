@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SponsorTiers from '../components/SponsorTiers.astro';
+import PhotoGallery from '../components/PhotoGallery.astro';
 import { SITE, url } from '../lib/site';
 
 const facts = [
@@ -42,7 +43,7 @@ const facts = [
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section--cta">
     <div class="wrap">
       <div class="cta">
         <h2>Reviewing is underway</h2>
@@ -58,6 +59,10 @@ const facts = [
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="section section--gallery">
+    <PhotoGallery />
   </section>
 
   <section class="section">
