@@ -9,7 +9,7 @@ const facts = [
   { k: 'Location', v: SITE.location },
   { k: 'Format', v: 'In-person symposium' },
   { k: 'Submission Deadline', v: SITE.deadline },
-  { k: 'Decisions Released', v: SITE.decisions },
+  { k: 'Paper Decisions', v: SITE.decisions },
   { k: 'Contact', v: SITE.email },
 ];
 ---
@@ -46,16 +46,16 @@ const facts = [
   <section class="section section--cta">
     <div class="wrap">
       <div class="cta">
-        <h2>Reviewing is underway</h2>
+        <h2>Paper decisions: Monday, October 26 (AoE)</h2>
         <p>
-          Paper and demonstration submissions are now closed. Reviews are in progress: the author
-          response period runs October 5&ndash;12, and decisions are released on {SITE.decisions}.
+          The announcement of paper decisions has been moved from October 22 to
+          <strong>Monday, October 26, 2026, Anywhere on Earth (AoE)</strong>. Decisions for both the
+          Proceedings and Findings tracks will be released together.
           Career Mentorship applications remain open until October 26.
         </p>
         <div class="btn-row">
           <a class="btn btn-primary" href={url('resources/reviewing-guidelines')}>Reviewing Guidelines</a>
           <a class="btn btn-ghost" href={url('submit/mentorship-programs')}>Career Mentorship</a>
-          <a class="btn btn-outline" href={url('submit/call-for-papers')}>Call for Participation</a>
         </div>
       </div>
     </div>

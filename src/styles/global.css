@@ -750,6 +750,7 @@ a:hover { color: var(--teal); }
 }
 .cta h2 { color: #fff; font-family: var(--serif); }
 .cta p { color: rgba(255,255,255,.85); max-width: 30rem; margin: .6rem auto 0; }
+.cta p strong { color: #fff; }
 .cta .btn-row { justify-content: center; }
 .cta .btn-outline { color: #fff; border-color: rgba(255,255,255,.45); }
 .cta .btn-outline:hover { color: #fff; border-color: rgba(255,255,255,.8); background: rgba(255,255,255,.1); }

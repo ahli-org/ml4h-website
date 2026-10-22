@@ -18,7 +18,7 @@ lead: Thank you for serving as a reviewer or area chair for ML4H. Your contribut
 | Author–Reviewer discussion period | Oct. 12-17 |
 | AC–Reviewer discussion period | Oct. 17-20 |
 | Meta-reviews due | Oct. 20 |
-| Decision released | Oct. 22 |
+| Decision released | Oct. 26 |
 
 ## Tracks
 
