@@ -18,6 +18,7 @@ export const SPONSOR_TIERS: SponsorTier[] = [
     slots: 2,
     sponsors: [
       { name: 'Google', url: 'https://www.google.com/', logo: 'logos/google.png' },
+      { name: 'Genentech', url: 'https://www.gene.com/', logo: 'logos/genentech.png' },
     ],
   },
   {
