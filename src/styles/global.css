@@ -850,8 +850,7 @@ a:hover { color: var(--teal); }
 
 /* ---- Photo gallery + lightbox -------------------------------------------- */
 /* Full-bleed 4-column grid, matching the CHIL site's home-page gallery. */
-.section.section--cta { border-top: 0; padding-top: 0; }
-.section.section--gallery { border-top: 0; padding-top: 0; }
+.section.section--cta { border-top: 0; padding-top: 0; }.section.section--gallery { border-top: 0; padding-top: 0; }
 .gallery { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem; padding: 0 1.5rem; }
 .gallery-item {
   display: block; padding: 0; border: 0; background: var(--paper-2); cursor: zoom-in;
