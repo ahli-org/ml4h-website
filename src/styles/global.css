@@ -307,6 +307,22 @@ a:hover { color: var(--teal); }
   content: ''; width: 7px; height: 7px; border-radius: 50%;
   background: var(--teal-bright);
 }
+/* One-line "latest news" strip just below the hero. */
+.announce-bar { padding-top: 1.6rem; }
+.announce-bar + .section { border-top: 0; padding-top: 1.6rem; }
+.announce {
+  display: inline-flex; align-items: center; gap: .6rem;
+  padding: .35rem .9rem .35rem .4rem;
+  border: 1px solid var(--line); border-radius: 999px;
+  font-size: .88rem; color: var(--ink); text-decoration: none;
+  transition: background .2s ease, border-color .2s ease;
+}
+.announce:hover { background: var(--paper-2); border-color: var(--navy); color: var(--ink); }
+.announce-tag {
+  padding: .15rem .55rem; border-radius: 999px;
+  background: var(--navy); color: #fff;
+  font-size: .72rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
+}
 
 /* ---- Typography in content ---------------------------------------------- */
 .section h2 {
