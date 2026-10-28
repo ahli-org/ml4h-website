@@ -148,9 +148,7 @@ lead: Common questions about submitting to and attending ML4H 2026.
 <div class="faq-item">
 <h3>Will you be offering travel grants to authors of accepted papers?</h3>
 <p>
-  We may have travel awards for attendees depending on the funds raised by the Symposium. The Early
-  Career Travel Grant application deadline is <strong>October 31</strong>. More details will be
-  released before that date.
+  Travel grant information will be communicated directly to authors.
 </p>
 </div>
 

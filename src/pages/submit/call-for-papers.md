@@ -40,7 +40,6 @@ _All times are in AoE._
     <tr><td><strong>Oct 5</strong></td><td>Reviews available; author response period starts</td></tr>
     <tr><td><strong>Oct 12</strong></td><td>Author response period ends</td></tr>
     <tr><td><strong>Oct 26</strong></td><td>Decisions released</td></tr>
-    <tr><td><strong>Oct 31</strong></td><td>Early Career Travel Grant application deadline</td></tr>
     <tr><td><strong>Nov 7</strong> <em>(tentative)</em></td><td>Camera-ready deadline</td></tr>
     <tr><td><strong>Dec 6–7</strong></td><td>In-person event</td></tr>
   </tbody>
