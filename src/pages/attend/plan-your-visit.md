@@ -42,13 +42,23 @@ The venue's main entrance is on the 1st floor. Step-free access is available via
 
 The venue sits in the middle of the CBD, with a wide range of hotels within walking distance. With NeurIPS taking place in Sydney the same week, demand for rooms will be exceptionally high — we strongly recommend booking as early as possible.
 
-<div class="callout">
-  <p>
-    <strong>Hotel details coming soon.</strong> Recommended hotels near the
-    venue, along with any conference rates and booking links, will be posted
-    here.
-  </p>
-</div>
+The following hotels offer discounted rates for ML4H 2026 attendees. Use the booking link, or enter the promo code when booking directly.
+
+### Ace Hotel Sydney
+
+- **Address:** 47–53 Wentworth Avenue, Sydney NSW 2000 (about a 4-minute walk to the venue)
+- **Promo code:** **ACECENTRE**
+- **Book:** [Booking link with discount applied](https://reservations.acehotel.com/?adult=1&arrive=2026-12-06&chain=7231&child=0&currency=AUD&depart=2026-12-07&hotel=35963&level=hotel&locale=en-US&productcurrency=AUD&promo=ACECENTRE&rooms=1) · [Hotel website](https://acehotel.com/sydney/)
+- **Contact:** <terry.shum@acehotel.com> · [+61 2 8099 8799](tel:+61280998799)
+
+### Fraser Suites Sydney
+
+- **Address:** 488 Kent Street, Sydney NSW 2000 (about a 7-minute walk to the venue)
+- **Promo code:** **FSSROOMS**
+- **Book:** [Booking link with discount applied](https://be.synxis.com/?adult=1&arrive=2026-12-06&chain=10322&child=0&currency=AUD&depart=2026-12-07&hotel=52622&level=hotel&locale=en-US&productcurrency=AUD&promo=FSSROOMS&rate=EXGRP&rooms=1) · [Hotel website](https://www.frasershospitality.com/en/australia/sydney/fraser-suites-sydney/)
+- **Contact:** <reservations.sydney@frasershospitality.com> · [+61 2 8823 8888](tel:+61288238888)
+
+Booking links open with one night (December 6–7) selected; adjust the dates to suit your stay.
 
 ## Visa information
 
