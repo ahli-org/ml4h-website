@@ -848,7 +848,6 @@ a:hover { color: var(--teal); }
 .sched-what .sched-who {
   display: block; color: var(--ink-soft); font-weight: 600; font-size: .9rem; margin-top: .12rem;
 }
-.sched-what .sched-who a { color: inherit; }
 .sched-room {
   white-space: nowrap; color: var(--ink-faint); width: 8rem; font-size: .88rem;
 }

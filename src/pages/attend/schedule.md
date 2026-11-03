@@ -81,7 +81,7 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">1:55 PM</td>
         <td class="sched-dur">1 hr 5 min</td>
-        <td class="sched-what">Research Roundtables</td>
+        <td class="sched-what"><a href="../research-roundtables/">Research Roundtables</a></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
@@ -143,7 +143,7 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">10:25 AM</td>
         <td class="sched-dur">1 hr 5 min</td>
-        <td class="sched-what">Research Roundtables</td>
+        <td class="sched-what"><a href="../research-roundtables/">Research Roundtables</a></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>

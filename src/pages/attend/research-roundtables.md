@@ -12,18 +12,23 @@ These intimate, structured discussions bring together small groups of
 researchers to engage deeply with specific topics — from methodological
 challenges to deployment realities to open problems in the field.
 
-Roundtable topics and facilitators for ML4H 2026 will be announced here.
-In previous years, roundtables have covered topics such as:
+## 2026 topics
 
-- Evaluation challenges in health AI
-- Clinical deployment and translation
-- Fairness and equity in ML for health
-- Synthetic data and privacy
-- Foundation models in clinical settings
+- Clinical Tools in Physician Workflows
+- Health Economics, Policy, and Reimbursement
+- From Research to Commercial: Start-Ups in Health AI *(two tables)*
+- Health AI and the Patient Experience
+- Bias and Fairness *(two tables)*
+- Wearables, EHRs, and Beyond: Enabling Context for Consumer Health AI
+- Mechanistic vs. Data-Driven AI for Healthcare *(two tables)*
+- Real-World Evaluation *(two tables)*
+- Speed to Deployment *(two tables)*
+- Global Healthcare Differences in AI Use and Benefits
+- Modeling Patients and Disease: How Far Can Routinely Collected Data Take Us?
 
 <div class="callout">
   <p>
-    <strong>Roundtable details coming soon.</strong> 
+    <strong>Facilitators will be announced soon.</strong>
   </p>
 </div>
 
