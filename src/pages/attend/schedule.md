@@ -69,7 +69,7 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">11:55 AM</td>
         <td class="sched-dur">1 hr</td>
-        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Genentech talk during the first 20 min</span></td>
+        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Sponsor talk during the first 20 min</span></td>
         <td class="sched-room">Marble Foyer</td>
       </tr>
       <tr>
@@ -155,7 +155,7 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">11:50 AM</td>
         <td class="sched-dur">50 min</td>
-        <td class="sched-what">Keynote 3<span class="sched-who">Robert Korom</span><span class="sched-sub">40 min talk + 10 min Q&amp;A</span></td>
+        <td class="sched-what">Keynote 3<span class="sched-who"><a href="../speakers/#robert-korom">Robert Korom</a></span><span class="sched-sub">40 min talk + 10 min Q&amp;A</span></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
@@ -167,7 +167,7 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">12:40 PM</td>
         <td class="sched-dur">50 min</td>
-        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Google talk during the first 20 min</span></td>
+        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Sponsor talk during the first 20 min</span></td>
         <td class="sched-room">Marble Foyer</td>
       </tr>
       <tr>

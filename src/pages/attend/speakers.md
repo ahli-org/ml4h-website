@@ -77,6 +77,27 @@ and perspectives with the community.
   </div>
 </article>
 
+<article class="speaker" id="robert-korom">
+  <img class="speaker-photo" src="../../people/robert.png" alt="Robert Korom" width="320" height="400" loading="lazy" />
+  <div class="speaker-body">
+    <h3>Robert Korom</h3>
+    <p class="person-affil">Chief Medical Officer, Penda Health</p>
+    <p class="person-bio">
+      Dr. Robert Korom is a board-certified internal medicine physician who earned
+      his medical degree from Weill Cornell Medical College in New York City, USA,
+      and completed his medical training at Massachusetts General Hospital in
+      Boston, where he was a clinical fellow at Harvard Medical School. Dr. Korom
+      has published several peer-reviewed studies in clinical quality improvement.
+      He works closely with Penda's digital health and technology teams to improve
+      clinical decision making and enhance patient experience. Rob is a dedicated
+      health care leader passionate about enhancing patient experience and quality
+      of care. He is a strong believer in leveraging the power of technology and
+      data to deliver better patient outcomes especially in resource constrained
+      settings.
+    </p>
+  </div>
+</article>
+
 ## Perspective speakers
 
 <article class="speaker" id="karin-verspoor">
