@@ -309,7 +309,7 @@ a:hover { color: var(--teal); }
 }
 /* One-line "latest news" strip just below the hero. */
 .announce-bar { padding-top: 1.6rem; }
-.announce-bar .wrap { display: flex; flex-wrap: wrap; gap: .6rem; }
+.announce-bar .wrap { display: flex; flex-direction: column; align-items: flex-start; gap: .6rem; }
 .announce-bar + .section { border-top: 0; padding-top: 1.6rem; }
 .announce {
   display: inline-flex; align-items: center; gap: .6rem;
@@ -458,6 +458,7 @@ a:hover { color: var(--teal); }
   aspect-ratio: 195 / 280; object-fit: cover; object-position: center top;
   border-radius: 10px; box-shadow: var(--shadow-sm);
 }
+.speaker { scroll-margin-top: 1.5rem; }
 .speaker-body { min-width: 0; }
 .speaker-body h3 { margin: 0 0 .2rem; }
 @media (max-width: 560px) {
@@ -837,20 +838,23 @@ a:hover { color: var(--teal); }
 .sched-table tbody tr:last-child td { border-bottom: none; }
 .sched-time {
   white-space: nowrap; font-variant-numeric: tabular-nums;
-  font-weight: 600; color: var(--teal); width: 7rem;
+  font-weight: 600; color: var(--ink); width: 7rem;
 }
 .sched-dur {
   white-space: nowrap; font-variant-numeric: tabular-nums;
   color: var(--ink-faint); width: 6rem; font-size: .88rem;
 }
 .sched-what { color: var(--ink); }
+.sched-what .sched-who {
+  display: block; color: var(--ink-soft); font-weight: 600; font-size: .9rem; margin-top: .12rem;
+}
+.sched-what .sched-who a { color: inherit; }
+.sched-room {
+  white-space: nowrap; color: var(--ink-faint); width: 8rem; font-size: .88rem;
+}
 .sched-what .sched-sub {
   display: block; color: var(--ink-faint); font-size: .85rem; margin-top: .12rem;
 }
-/* Muted rows for breaks, meals, and logistics */
-.sched-table tr.is-break { background: var(--paper-2); }
-.sched-table tr.is-break .sched-time { color: var(--ink-faint); font-weight: 600; }
-.sched-table tr.is-break .sched-what { color: var(--ink-soft); }
 
 @media (max-width: 640px) {
   .sched-table thead { display: none; }
@@ -861,8 +865,8 @@ a:hover { color: var(--teal); }
   .sched-table td { border: none; padding: 0; }
   .sched-time { grid-column: 1; grid-row: 1; width: auto; }
   .sched-dur  { grid-column: 1; grid-row: 2; width: auto; }
-  .sched-what { grid-column: 2; grid-row: 1 / span 2; }
-  .sched-table tr.is-break { padding-left: .6rem; padding-right: .6rem; border-radius: 6px; }
+  .sched-what { grid-column: 2; grid-row: 1; }
+  .sched-room { grid-column: 2; grid-row: 2; width: auto; }
 }
 
 /* ---- Photo gallery + lightbox -------------------------------------------- */

@@ -13,7 +13,7 @@ ML4H consistently brings together leading researchers in machine
 learning, clinical medicine, and health informatics to share their work
 and perspectives with the community.
 
-<article class="speaker">
+<article class="speaker" id="jean-feng">
   <img class="speaker-photo" src="../../people/jean.png" alt="Jean Feng" width="195" height="280" loading="lazy" />
   <div class="speaker-body">
     <h3>Jean Feng</h3>
@@ -38,7 +38,7 @@ and perspectives with the community.
   </div>
 </article>
 
-<article class="speaker">
+<article class="speaker" id="benjamin-glicksberg">
   <img class="speaker-photo" src="../../people/ben.jpg" alt="Benjamin Glicksberg" width="300" height="430" loading="lazy" />
   <div class="speaker-body">
     <h3>Benjamin Glicksberg</h3>
@@ -60,7 +60,7 @@ and perspectives with the community.
   </div>
 </article>
 
-<article class="speaker">
+<article class="speaker" id="adam-dunn">
   <img class="speaker-photo" src="../../people/adam.jpg" alt="Adam Dunn" width="300" height="430" loading="lazy" />
   <div class="speaker-body">
     <h3>Adam Dunn</h3>
@@ -79,7 +79,7 @@ and perspectives with the community.
 
 ## Perspective speakers
 
-<article class="speaker">
+<article class="speaker" id="karin-verspoor">
   <img class="speaker-photo" src="../../people/karin.png" alt="Karin Verspoor" width="1294" height="862" loading="lazy" />
   <div class="speaker-body">
     <h3>Karin Verspoor</h3>
