@@ -24,7 +24,8 @@ export const SITE = {
   decisions: 'Released',
   location: 'Sydney, Australia',
   email: 'ml4h@ahli.cc',
-  waitlist: 'https://docs.google.com/forms/d/e/1FAIpQLSeb6wrmN1bGTxOKpg5MB_cxLgRir8CwH5NdTTh091mbsWM_lA/viewform',
+  register: 'https://ahli.cc/ml4h26-register-post/',
+  registrationDeadline: 'November 24, 2026',
 };
 
 export type NavChild = { label: string; path: string };

@@ -12,7 +12,7 @@ lead: Venue, travel, and accommodation information for ML4H 2026.
 - **Address:** 66 Goulburn Street, Sydney NSW 2000, Australia
 - **Map:** [Open in Google Maps](https://maps.google.com/?q=Sydney+Masonic+Centre,+66+Goulburn+St,+Sydney+NSW+2000)
 - **Co-location:** ML4H 2026 is held in Sydney immediately before NeurIPS 2026.
-- **Registration:** now sold out. [Join the waitlist](https://docs.google.com/forms/d/e/1FAIpQLSeb6wrmN1bGTxOKpg5MB_cxLgRir8CwH5NdTTh091mbsWM_lA/viewform).
+- **Registration:** reopened until November 24, 2026 at [ahli.cc/ml4h26-register-post](https://ahli.cc/ml4h26-register-post/).
 
 ## Venue
 

@@ -140,8 +140,8 @@ lead: Common questions about submitting to and attending ML4H 2026.
 <div class="faq-item">
 <h3>Is ML4H registration distinct from NeurIPS registration?</h3>
 <p>
-  Yes, we are an independent symposium. Registration for the ML4H Symposium is now sold out. You can
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb6wrmN1bGTxOKpg5MB_cxLgRir8CwH5NdTTh091mbsWM_lA/viewform" target="_blank" rel="noopener noreferrer">join the waitlist</a>.
+  Yes, we are an independent symposium. Registration for the ML4H Symposium has reopened until November 24, 2026 at
+  <a href="https://ahli.cc/ml4h26-register-post/" target="_blank" rel="noopener noreferrer">ahli.cc/ml4h26-register-post</a>.
 </p>
 </div>
 

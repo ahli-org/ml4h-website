@@ -345,7 +345,7 @@ which governs how submission and review data may be used for operational purpose
 ## Registration Requirement
 
 To promote community interaction, at least one presenting author of accepted works must register for
-the event. Registration is now sold out; please [join the waitlist](https://docs.google.com/forms/d/e/1FAIpQLSeb6wrmN1bGTxOKpg5MB_cxLgRir8CwH5NdTTh091mbsWM_lA/viewform).
+the event. Register at [ahli.cc/ml4h26-register-post](https://ahli.cc/ml4h26-register-post/) by November 24, 2026.
 
 ## Contact Us
 
