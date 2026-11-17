@@ -170,6 +170,15 @@ lead: Common questions about submitting to and attending ML4H 2026.
 </div>
 </div>
 
+## Presenting at ML4H
+
+<div class="faq">
+<div class="faq-item">
+<h3>What size should my poster be?</h3>
+<p>Posters must be <strong>24 in wide × 36 in tall</strong> (approximately 61 cm × 91 cm, portrait orientation). There is no official poster template, so feel free to use any design you like.</p>
+</div>
+</div>
+
 <div class="callout" style="margin-top:2rem">
   <p>Don't see your question here? Reach out at <a href="mailto:ml4h@ahli.cc">ml4h@ahli.cc</a>.</p>
 </div>
