@@ -22,10 +22,9 @@ export const SITE = {
   dates: 'December 6–7, 2026',
   deadline: 'September 10, 2026',
   decisions: 'Released',
-  registrationDeadline: 'November 20, 2026',
   location: 'Sydney, Australia',
   email: 'ml4h@ahli.cc',
-  register: 'https://ahli.cc/ml4h26-register/',
+  waitlist: 'https://docs.google.com/forms/d/e/1FAIpQLSeb6wrmN1bGTxOKpg5MB_cxLgRir8CwH5NdTTh091mbsWM_lA/viewform',
 };
 
 export type NavChild = { label: string; path: string };

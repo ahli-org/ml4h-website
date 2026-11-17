@@ -25,7 +25,7 @@ const facts = [
         and practice of ML for health.
       </p>
       <div class="btn-row">
-        <span class="btn btn-primary btn-disabled" aria-disabled="true">Sold Out</span>
+        <a class="btn btn-primary" href={SITE.waitlist} target="_blank" rel="noopener noreferrer">Sold Out: Join the Waitlist</a>
         <a class="btn btn-ghost" href="http://eepurl.com/jsz3P2" target="_blank" rel="noopener noreferrer">Sign Up for Emails</a>
       </div>
     </div>
@@ -33,10 +33,10 @@ const facts = [
 
   <div class="announce-bar">
     <div class="wrap">
-      <p class="announce" role="note">
+      <a class="announce" href={SITE.waitlist} target="_blank" rel="noopener noreferrer">
         <span class="announce-tag">Update</span>
-        Registration is now sold out
-      </p>
+        Registration is now sold out. Click to sign up for the waitlist
+      </a>
       <a class="announce" href={`${url('attend/plan-your-visit')}#accommodation`}>
         <span class="announce-tag">New</span>
         Discounted hotel rates near the venue

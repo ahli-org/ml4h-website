@@ -99,7 +99,7 @@ All submissions will undergo a review process by the ML4H Demo Review Committee 
 
 ## Registration Information
 
-To promote community interaction, at least one presenting author of each accepted demonstration must register for and attend the in-person event. Register at [ahli.cc/ml4h26-register](https://ahli.cc/ml4h26-register/).
+To promote community interaction, at least one presenting author of each accepted demonstration must register for and attend the in-person event. Registration is now sold out; please [join the waitlist](https://docs.google.com/forms/d/e/1FAIpQLSeb6wrmN1bGTxOKpg5MB_cxLgRir8CwH5NdTTh091mbsWM_lA/viewform).
 
 ## Contact Us
 
