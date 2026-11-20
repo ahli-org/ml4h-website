@@ -120,6 +120,24 @@ and perspectives with the community.
   </div>
 </article>
 
+<article class="speaker" id="flora-salim">
+  <img class="speaker-photo" src="../../people/flora.jpg" alt="Flora Salim" width="600" height="800" loading="lazy" />
+  <div class="speaker-body">
+    <h3>Flora Salim</h3>
+    <p class="person-affil">Professor, School of Computer Science and Engineering, UNSW Sydney</p>
+    <p class="person-bio">
+      Flora Salim is a Professor in the School of Computer Science and Engineering
+      at the University of New South Wales (UNSW) Sydney, where she also serves as
+      the Deputy Director (Engagement) of the UNSW AI Institute. Her work focuses on
+      multimodal machine learning and foundation models for time-series and
+      spatio-temporal data; robust and trustworthy machine learning; and continual
+      learning and post-tuning. She is a Fellow of the Australian Academy of
+      Technological Sciences and Engineering (ATSE). She is a Vice Chair of the
+      IEEE Task Force on AI for Time-Series and Spatio-Temporal Data.
+    </p>
+  </div>
+</article>
+
 <div class="callout">
   <p><strong>More speakers will be announced soon.</strong> Follow us for updates.</p>
 </div>
