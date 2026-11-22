@@ -2,6 +2,7 @@
 layout: ../../layouts/MarkdownLayout.astro
 title: Schedule
 eyebrow: Attend · Schedule
+wide: true
 lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia.
 ---
 
@@ -51,7 +52,7 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">10:20 AM</td>
         <td class="sched-dur">20 min</td>
-        <td class="sched-what">Perspective Talk<span class="sched-who">Flora Salim</span></td>
+        <td class="sched-what">Perspective Talk<span class="sched-who"><a href="../speakers/#flora-salim">Flora Salim</a></span></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
@@ -63,7 +64,15 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">11:30 AM</td>
         <td class="sched-dur">25 min</td>
-        <td class="sched-what">Spotlight Talks 1</td>
+        <td class="sched-what">Spotlight Talks 1
+        <ol class="sched-talks">
+          <li><span class="sched-talk-title">From Low- to High-Fidelity Chromatin Contact Maps with Hierarchical Graphs</span><span class="sched-talk-who">Albert Hung</span></li>
+          <li><span class="sched-talk-title">Distinguishing Extraction Failures and Clinical Discordance with LLM Uncertainty on Radiology Reports</span></li>
+          <li><span class="sched-talk-title">AG-JEPA: Anatomically Guided Joint Embedding Predictive Architecture for Neurodegenerative Representation Learning</span><span class="sched-talk-who">Mercy Prasanna Ranjit</span></li>
+          <li><span class="sched-talk-title">OmitEHR: Scalable Omission Detection in LLM-Generated Clinical Summaries</span><span class="sched-talk-who">Bridget Lin and Rayn Welch</span></li>
+          <li><span class="sched-talk-title">Views on Race, Ethnicity, and Algorithmic Reform in Medicine: A Multinational Opt-In Survey</span><span class="sched-talk-who">Amin Adibi</span></li>
+        </ol>
+        </td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
@@ -137,7 +146,12 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">10:05 AM</td>
         <td class="sched-dur">20 min</td>
-        <td class="sched-what">Spotlight Demos</td>
+        <td class="sched-what">Spotlight Demos
+        <ol class="sched-talks">
+          <li><span class="sched-talk-title">Building the observability layer for medical AI with MedLog</span></li>
+          <li><span class="sched-talk-title">Ocular: A Smartphone-Microscopy AI Assistant for Point-of-Care Malaria Diagnosis</span><span class="sched-talk-who">Solomon Nsumba</span></li>
+        </ol>
+        </td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
@@ -179,7 +193,14 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">2:30 PM</td>
         <td class="sched-dur">20 min</td>
-        <td class="sched-what">Spotlight Talks 2</td>
+        <td class="sched-what">Spotlight Talks 2
+        <ol class="sched-talks">
+          <li><span class="sched-talk-title">Selective Linkage Precision for Released Medical Vision-Language Models</span><span class="sched-talk-who">Soroosh Tayebi Arasteh</span></li>
+          <li><span class="sched-talk-title">MIMIC-Note-Extract: A Large-Scale Structured Dataset Extracted from MIMIC-IV-Note Discharge Summaries</span><span class="sched-talk-who">Kristian Schwethelm</span></li>
+          <li><span class="sched-talk-title">ROUNDS: Source-Framed Diagnostic Revision after Multi-Turn Clinical Evidence</span><span class="sched-talk-who">Jinrui Fang</span></li>
+          <li><span class="sched-talk-title">Strategic Feature Selection</span><span class="sched-talk-who">Jivat Neet Kaur</span></li>
+        </ol>
+        </td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>

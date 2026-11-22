@@ -3,12 +3,12 @@ import BaseLayout from './BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 
 const { frontmatter } = Astro.props;
-const { title, eyebrow, lead } = frontmatter;
+const { title, eyebrow, lead, wide } = frontmatter;
 ---
 <BaseLayout title={title}>
   <Hero eyebrow={eyebrow} title={title} lead={lead} />
   <section class="section">
-    <div class="wrap">
+    <div class={wide ? "wrap wrap--wide" : "wrap"}>
       <slot />
     </div>
   </section>

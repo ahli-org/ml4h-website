@@ -846,13 +846,27 @@ a:hover { color: var(--teal); }
 }
 .sched-what { color: var(--ink); }
 .sched-what .sched-who {
-  display: block; color: var(--ink-soft); font-weight: 600; font-size: .9rem; margin-top: .12rem;
+  display: block; color: var(--blue); font-weight: 700; font-size: .9rem; margin-top: .2rem;
 }
+.sched-what .sched-who a { color: inherit; }
+.sched-what .sched-who a:hover { color: var(--teal); }
 .sched-room {
   white-space: nowrap; color: var(--ink-faint); width: 8rem; font-size: .88rem;
 }
 .sched-what .sched-sub {
   display: block; color: var(--ink-faint); font-size: .85rem; margin-top: .12rem;
+}
+
+.sched-what .sched-talks {
+  list-style: none; margin: .45rem 0 0; padding: 0;
+}
+.sched-what .sched-talks li {
+  padding: .4rem 0 .4rem .8rem; border-left: 2px solid var(--line); margin: .3rem 0;
+}
+.sched-what .sched-talk-title { display: block; font-size: .9rem; line-height: 1.4; }
+.sched-what .sched-talk-who {
+  display: block; margin-top: .2rem;
+  color: var(--blue); font-weight: 700; font-size: .9rem;
 }
 
 @media (max-width: 640px) {
