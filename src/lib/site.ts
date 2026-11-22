@@ -64,6 +64,7 @@ export const NAV: NavItem[] = [
     children: [
       { label: 'Schedule', path: 'attend/schedule' },
       { label: 'Speakers', path: 'attend/speakers' },
+      { label: 'Accepted Papers', path: 'attend/accepted-papers' },
       { label: 'Research Roundtables', path: 'attend/research-roundtables' },
       { label: 'Plan Your Visit', path: 'attend/plan-your-visit' },
     ],

@@ -1,0 +1,139 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Hero from '../../components/Hero.astro';
+import papers from '../../data/accepted-papers.json';
+
+// OpenReview pages aren't public yet. Flip to true to link each title to its OpenReview page.
+const SHOW_LINKS = false;
+
+type Paper ={ track: string; title: string; authors: string; url?: string };
+
+const byTitle = (a: Paper, b: Paper) => a.title.localeCompare(b.title);
+const pick = (...tracks: string[]) =>
+  (papers as Paper[]).filter((p) => tracks.includes(p.track)).sort(byTitle);
+
+const trackLabel = (t: string) => (t.startsWith('proceedings') ? 'Proceedings' : t.startsWith('findings') ? 'Findings' : 'Demo');
+
+// Sections render in this order; empty sections are skipped
+// (e.g. add rows tagged "demo" to the JSON and the Demos section appears).
+const sections = [
+  {
+    id: 'spotlights',
+    title: 'Spotlights',
+    eyebrow: 'Proceedings & Findings',
+    desc: 'Selected for spotlight talks.',
+    papers: pick('proceedings-spotlight', 'findings-spotlight'),
+    showTrack: true,
+  },
+  {
+    id: 'proceedings',
+    title: 'Proceedings Track',
+    eyebrow: 'Archival',
+    papers: pick('proceedings-poster'),
+  },
+  {
+    id: 'findings',
+    title: 'Findings Track',
+    eyebrow: 'Non-archival',
+    papers: pick('findings-poster'),
+  },
+  {
+    id: 'demos',
+    title: 'Demonstrations',
+    eyebrow: 'Demos',
+    papers: pick('demo', 'demo-poster'),
+  },
+].filter((s) => s.papers.length > 0);
+---
+<BaseLayout title="Accepted Papers">
+  <Hero
+    eyebrow="Attend · Accepted Papers"
+    title="Accepted Papers"
+  />
+
+  <section class="section">
+    <div class="wrap">
+      <nav class="ap-jump" aria-label="Jump to section">
+        {sections.map((s) => (
+          <a href={`#${s.id}`}>{s.title} <span>({s.papers.length})</span></a>
+        ))}
+      </nav>
+      <label class="ap-search">
+        <span class="visually-hidden">Filter papers by title or author</span>
+        <input type="search" id="ap-filter" placeholder="Filter by title or author…" autocomplete="off" />
+      </label>
+      <p class="ap-empty" id="ap-empty" hidden>No papers match your filter.</p>
+    </div>
+  </section>
+
+  {sections.map((s) => (
+    <section class="section ap-section" id={s.id}>
+      <div class="wrap">
+        <p class="eyebrow">{s.eyebrow}</p>
+        <h2>{s.title}</h2>
+        {s.desc && <p>{s.desc}</p>}
+        <ul class="resource-list">
+          {s.papers.map((p) => (
+            <li class="resource ap-paper" data-search={`${p.title} ${p.authors}`.toLowerCase()}>
+              <div class="resource-main">
+                {s.showTrack && <p class="ap-track">{trackLabel(p.track)} track</p>}
+                <p class="ap-title">
+                  {SHOW_LINKS && p.url ? <a href={p.url} rel="noopener" target="_blank">{p.title}</a> : p.title}
+                </p>
+                <p>{p.authors}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+  ))}
+</BaseLayout>
+
+<style>
+  .ap-jump { display: flex; flex-wrap: wrap; gap: .5rem 1.25rem; margin-bottom: 1rem; }
+  .ap-jump a { font-weight: 600; text-decoration: none; }
+  .ap-jump a:hover { text-decoration: underline; }
+  .ap-jump span { font-weight: 400; color: var(--ink-faint); }
+  .ap-search input {
+    width: 100%; padding: .6rem .8rem; font: inherit;
+    border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink);
+  }
+  .ap-search input:focus { outline: 2px solid var(--blue); outline-offset: 1px; }
+  .ap-empty { color: var(--ink-soft); margin-top: 1rem; }
+  /* `.resource` sets display:flex, which would otherwise override [hidden]. */
+  .ap-paper[hidden], .ap-section[hidden], .ap-empty[hidden] { display: none; }
+  .ap-section { scroll-margin-top: 1rem; }
+  .resource-main .ap-title { margin: 0; font-weight: 600; font-size: 1.05rem; color: var(--ink); }
+  .resource-main .ap-title a { color: inherit; }
+  .resource-main .ap-title a:hover { color: var(--blue); }
+  .resource-main .ap-track {
+    margin: 0 0 .2rem; font-size: .72rem; font-weight: 600;
+    letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint);
+  }
+  .visually-hidden {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+</style>
+
+<script>
+  const input = document.getElementById('ap-filter') as HTMLInputElement | null;
+  const empty = document.getElementById('ap-empty');
+  const sections = Array.from(document.querySelectorAll<HTMLElement>('.ap-section'));
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let total = 0;
+    for (const sec of sections) {
+      let shown = 0;
+      sec.querySelectorAll<HTMLElement>('.ap-paper').forEach((li) => {
+        const match = !q || (li.dataset.search ?? '').includes(q);
+        li.hidden = !match;
+        if (match) shown++;
+      });
+      sec.hidden = shown === 0;
+      total += shown;
+    }
+    if (empty) empty.hidden = total > 0;
+  });
+</script>
