@@ -148,7 +148,7 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
         <td class="sched-dur">20 min</td>
         <td class="sched-what">Spotlight Demos
         <ol class="sched-talks">
-          <li><span class="sched-talk-title">Building the observability layer for medical AI with MedLog</span></li>
+          <li><span class="sched-talk-title">Building the observability layer for medical AI with MedLog</span><span class="sched-talk-who">Ayush Noori</span></li>
           <li><span class="sched-talk-title">Ocular: A Smartphone-Microscopy AI Assistant for Point-of-Care Malaria Diagnosis</span><span class="sched-talk-who">Solomon Nsumba</span></li>
         </ol>
         </td>
