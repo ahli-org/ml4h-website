@@ -919,3 +919,22 @@ a:hover { color: var(--teal); }
 .lightbox-close { top: 1rem; right: 1rem; }
 .lightbox-prev { left: 1rem; top: 50%; transform: translateY(-50%); }
 .lightbox-next { right: 1rem; top: 50%; transform: translateY(-50%); }
+
+/* ---- Research roundtables ------------------------------------------------ */
+.rt-table .rt-num {
+  width: 4rem; font-weight: 600; color: var(--teal);
+  font-variant-numeric: tabular-nums;
+}
+.rt-table .rt-topic { color: var(--ink); }
+.rt-table .rt-lead { color: var(--ink-soft); width: 12rem; }
+.rt-table .rt-note { display: block; color: var(--ink-faint); font-size: .82rem; }
+@media (max-width: 640px) {
+  .rt-table tr { grid-template-columns: 2.2rem 1fr; }
+  .rt-table .rt-num   { grid-column: 1; grid-row: 1 / span 3; width: auto; }
+  .rt-table .rt-topic { grid-column: 2; grid-row: 1; margin-bottom: .2rem; }
+  .rt-table .rt-lead  { grid-column: 2; width: auto; font-size: .88rem; }
+  .rt-table .rt-lead::before { color: var(--ink-faint); }
+  .rt-table td:nth-child(3)::before { content: "Senior chair: "; }
+  .rt-table td:nth-child(4)::before { content: "Junior chair: "; }
+  .rt-table .rt-note { display: inline; }
+}
