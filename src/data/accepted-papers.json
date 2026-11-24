@@ -970,5 +970,35 @@
     "title": "Interpretable Machine Learning Approach for Identifying Characteristic Type 1 and Type 2 Diabetes Blood Sugar Patterns Through Continuous Glucose Monitor Data",
     "authors": "Faris Raza",
     "url": "https://openreview.net/forum?id=Rk7JFTMyIQ"
+  },
+  {
+    "track": "demo",
+    "title": "Ocular: A Smartphone-Microscopy AI Assistant for Point-of-Care Malaria Diagnosis",
+    "authors": "Solomon Nsumba, Wamozo Cosmas, Benjamin Rukundo, Tusubira Francis Jeremy, Rose Nakasi, Daphine Nkunda"
+  },
+  {
+    "track": "demo",
+    "title": "Shared Care Plans Enable Collaboration between Patients, Physicians, and AI in Real-World Primary Care",
+    "authors": "Rushika Fernandopulle, Payal Chandak, Andrew H Palmer, John Moore"
+  },
+  {
+    "track": "demo",
+    "title": "CombiCast: Human-in-the-Loop Multi-Agent Decision Support for Combination-Therapy Partner Selection",
+    "authors": "Eugene J. Carragee, Jongmin Sung, Hyun Yong Jin, Minha Hwang, Kathleen M. Ruppel, Yehlin Cho, Youhan Lee"
+  },
+  {
+    "track": "demo",
+    "title": "ARISEKit: Researcher-guided health-AI evaluation from question to inspectable evidence",
+    "authors": "Chase M Walton, Ethan Goh, Vishnu Ravi, David Wu, Jonathan H Chen, Adam Rodman"
+  },
+  {
+    "track": "demo",
+    "title": "AfyaCore: On-Device Speech-to-Structured Clinical Records for Facilities Without Reliable Connectivity",
+    "authors": "Rozhin Yasaei, Mohammed Sameer Syed"
+  },
+  {
+    "track": "demo",
+    "title": "Building the observability layer for medical AI with MedLog",
+    "authors": "Isaac S. Kohane, Ayush Noori, Aaron Boussina, Karandeep Singh, David A. Clifton, Pablo A. Lorenzatto, Audrey Kwan, Marinka Zitnik"
   }
 ]
