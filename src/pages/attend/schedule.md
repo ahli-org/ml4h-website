@@ -94,13 +94,13 @@ lead: The programme for the two days of ML4H 2026 in Sydney, Australia. All time
         <td class="sched-time">3:20 PM</td>
         <td class="sched-dur">1 hr</td>
         <td class="sched-what">Poster Session 1</td>
-        <td class="sched-room">Banquet Hall</td>
+        <td class="sched-room">Ionic</td>
       </tr>
       <tr>
         <td class="sched-time">4:20 PM</td>
         <td class="sched-dur">20 min</td>
         <td class="sched-what">Closing Remarks</td>
-        <td class="sched-room">Ionic</td>
+        <td class="sched-room">Banquet Hall</td>
       </tr>
     </tbody>
   </table>
