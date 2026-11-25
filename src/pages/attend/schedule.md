@@ -3,17 +3,8 @@ layout: ../../layouts/MarkdownLayout.astro
 title: Schedule
 eyebrow: Attend · Schedule
 wide: true
-lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia.
+lead: The programme for the two days of ML4H 2026 in Sydney, Australia. All times are local to Sydney (AEDT).
 ---
-
-<div class="callout">
-  <p>
-    <strong>This schedule is preliminary.</strong> Session times, formats, and
-    running order are subject to change as the programme is finalised. Remaining
-    speaker names, panel line-ups, and roundtable topics will be added here
-    once confirmed. All times are local to Sydney (AEDT).
-  </p>
-</div>
 
 <div class="sched-day">
   <div class="sched-daybar">
@@ -78,13 +69,13 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">11:55 AM</td>
         <td class="sched-dur">1 hr</td>
-        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Sponsor talk during the first 20 min</span></td>
+        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Genentech talk during the first 20 min</span></td>
         <td class="sched-room">Marble Foyer</td>
       </tr>
       <tr>
         <td class="sched-time">12:55 PM</td>
         <td class="sched-dur">1 hr</td>
-        <td class="sched-what">Panel: AI Regulation for Healthcare</td>
+        <td class="sched-what">Panel: AI Regulation for Healthcare<span class="sched-who">Nigam Shah, Pranav Rajpurkar, Nan Liu</span></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
@@ -101,12 +92,12 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       </tr>
       <tr>
         <td class="sched-time">3:20 PM</td>
-        <td class="sched-dur">1 hr 5 min</td>
+        <td class="sched-dur">1 hr</td>
         <td class="sched-what">Poster Session 1</td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
-        <td class="sched-time">4:25 PM</td>
+        <td class="sched-time">4:20 PM</td>
         <td class="sched-dur">20 min</td>
         <td class="sched-what">Closing Remarks</td>
         <td class="sched-room">Ionic</td>
@@ -139,12 +130,12 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       </tr>
       <tr>
         <td class="sched-time">9:05 AM</td>
-        <td class="sched-dur">1 hr</td>
-        <td class="sched-what">Fireside Chat</td>
+        <td class="sched-dur">50 min</td>
+        <td class="sched-what">Fireside Chat: Career/Mentorship Panel<span class="sched-who">Scott Fleming, Mike Schaekermann</span></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
-        <td class="sched-time">10:05 AM</td>
+        <td class="sched-time">9:55 AM</td>
         <td class="sched-dur">20 min</td>
         <td class="sched-what">Spotlight Demos
         <ol class="sched-talks">
@@ -155,25 +146,25 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
-        <td class="sched-time">10:25 AM</td>
+        <td class="sched-time">10:15 AM</td>
         <td class="sched-dur">1 hr 5 min</td>
         <td class="sched-what"><a href="../research-roundtables/">Research Roundtables</a></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
-        <td class="sched-time">11:30 AM</td>
-        <td class="sched-dur">20 min</td>
+        <td class="sched-time">11:20 AM</td>
+        <td class="sched-dur">10 min</td>
         <td class="sched-what">Coffee Break</td>
         <td class="sched-room">Marble Foyer</td>
       </tr>
       <tr>
-        <td class="sched-time">11:50 AM</td>
+        <td class="sched-time">11:30 AM</td>
         <td class="sched-dur">50 min</td>
         <td class="sched-what">Keynote 3<span class="sched-who"><a href="../speakers/#robert-korom">Robert Korom</a></span><span class="sched-sub">40 min talk + 10 min Q&amp;A</span></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
-        <td class="sched-time">12:40 PM</td>
+        <td class="sched-time">12:20 PM</td>
         <td class="sched-dur">20 min</td>
         <td class="sched-what">Perspective Talk<span class="sched-who"><a href="../speakers/#karin-verspoor">Karin Verspoor</a></span></td>
         <td class="sched-room">Banquet Hall</td>
@@ -181,13 +172,13 @@ lead: A preliminary programme for the two days of ML4H 2026 in Sydney, Australia
       <tr>
         <td class="sched-time">12:40 PM</td>
         <td class="sched-dur">50 min</td>
-        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Sponsor talk during the first 20 min</span></td>
+        <td class="sched-what">Lunch (provided) and Sponsor Booths<span class="sched-sub">Google talk during the first 20 min</span></td>
         <td class="sched-room">Marble Foyer</td>
       </tr>
       <tr>
         <td class="sched-time">1:30 PM</td>
         <td class="sched-dur">1 hr</td>
-        <td class="sched-what">Panel: Global Health</td>
+        <td class="sched-what">Panel: Global Health<span class="sched-who">Robert Korom, Mercy Asiedu, Mohit Jain</span></td>
         <td class="sched-room">Banquet Hall</td>
       </tr>
       <tr>
