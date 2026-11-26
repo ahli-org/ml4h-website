@@ -2,122 +2,102 @@
   {
     "track": "findings-poster",
     "title": "Executable but Wrong: ODIN, an OMOP Deterministic INspector for LLM-Generated Clinical SQL",
-    "authors": "Shihao Shenzhang, Niko Möller-Grell, Richard Dobson, Vishnu Vardhan Chandrabalan",
-    "url": "https://openreview.net/forum?id=LJ9uWCnx7k"
+    "authors": "Shihao Shenzhang, Niko Möller-Grell, Richard Dobson, Vishnu Vardhan Chandrabalan"
   },
   {
     "track": "findings-poster",
     "title": "A Free Rescore Is Not Free: A Benchmark-Recommended Score Substitution Changes Sign With Dataset and Bandwidth in Medical Image Anomaly Detection",
-    "authors": "Tesfay Hagos Weldegebriel",
-    "url": "https://openreview.net/forum?id=hGi8QaT9O9"
+    "authors": "Tesfay Hagos Weldegebriel"
   },
   {
     "track": "findings-poster",
     "title": "EQPO: Equitable Group Relative Policy Optimization for Clinical Reasoning",
-    "authors": "Shiqi Dai, Wei Dai, Jiaee Cheong, Paul Pu Liang",
-    "url": "https://openreview.net/forum?id=p1aeGKMdAC"
+    "authors": "Shiqi Dai, Wei Dai, Jiaee Cheong, Paul Pu Liang"
   },
   {
     "track": "findings-poster",
     "title": "Cross-System Reuse of an EHR Foundation Model for Prediabetes Trajectory Phenotyping",
-    "authors": "Aojia Li, Ekaterina Zilonova, Christian Kruse, Sanjana Srinivasan, Harriet Larvin, Marie Stampe Ostenfeld, Goutham Atla, Marie Lisandra Zepeda Mendoza, Kristine Højgaard Allin",
-    "url": "https://openreview.net/forum?id=QOv1aZtK9I"
+    "authors": "Aojia Li, Ekaterina Zilonova, Christian Kruse, Sanjana Srinivasan, Harriet Larvin, Marie Stampe Ostenfeld, Goutham Atla, Marie Lisandra Zepeda Mendoza, Kristine Højgaard Allin"
   },
   {
     "track": "findings-poster",
     "title": "A Living Benchmark for Information Retrieval from Electronic Health Records",
-    "authors": "Jordan Li Cahoon, Chloe O'Connell Stanwyck, Sulaiman Somani, Philip Chung, Kevin Keet, Kameron C. Black, Andrea T. Fisher, Stephen P. Ma, Saloni Kumar Maharaj, Eduardo Perez-Guerrero, Rita Marie Pandya, Priyanka Pillai, David JH Wu, Lisa Shieh, James Xie, James C. McAvoy, Lucy Yin, Bridget Lin, Alison Callahan, Jason Alan Fries, Nigam Shah, Emily Alsentzer",
-    "url": "https://openreview.net/forum?id=XSWTrrc69c"
+    "authors": "Jordan Li Cahoon, Chloe O'Connell Stanwyck, Sulaiman Somani, Philip Chung, Kevin Keet, Kameron C. Black, Andrea T. Fisher, Stephen P. Ma, Saloni Kumar Maharaj, Eduardo Perez-Guerrero, Rita Marie Pandya, Priyanka Pillai, David JH Wu, Lisa Shieh, James Xie, James C. McAvoy, Lucy Yin, Bridget Lin, Alison Callahan, Jason Alan Fries, Nigam Shah, Emily Alsentzer"
   },
   {
     "track": "findings-poster",
     "title": "PatientMem: A Structured Longitudinal Memory for LLM-Based Clinical Reasoning",
-    "authors": "Akash Madisetty, Amit Prakash, Nikhil Raghavendra, Lalithadithya N, Bharath A Chhabria, Gowri Srinivasa",
-    "url": "https://openreview.net/forum?id=64GVxCTVoP"
+    "authors": "Akash Madisetty, Amit Prakash, Nikhil Raghavendra, Lalithadithya N, Bharath A Chhabria, Gowri Srinivasa"
   },
   {
     "track": "findings-poster",
     "title": "Profiling Medical AI Across Clinical Capabilities",
-    "authors": "Liam G McCoy, David Wu, Chase M Walton, Fateme Nateghi Haredasht, Thomas A. Buckley, Vishnu Ravi, Austin J. Schoeffler, Priyank Jain, Saloni Kumar Maharaj, Sarita Khemani, Luyang Luo, Xiaoman Zhang, Shannon Wongvibulsin, David J Wu, Laura Sophie Wegner, Chuk Anyaegbuna, Kathleen Lacar, Arjun Kumar Manrai, Pranav Rajpurkar, Adam Rodman, Ethan Goh, Jonathan H Chen",
-    "url": "https://openreview.net/forum?id=QiwQJ0w10G"
+    "authors": "Liam G McCoy, David Wu, Chase M Walton, Fateme Nateghi Haredasht, Thomas A. Buckley, Vishnu Ravi, Austin J. Schoeffler, Priyank Jain, Saloni Kumar Maharaj, Sarita Khemani, Luyang Luo, Xiaoman Zhang, Shannon Wongvibulsin, David J Wu, Laura Sophie Wegner, Chuk Anyaegbuna, Kathleen Lacar, Arjun Kumar Manrai, Pranav Rajpurkar, Adam Rodman, Ethan Goh, Jonathan H Chen"
   },
   {
     "track": "findings-poster",
     "title": "Diagnostic Updating Under Discordant Evidence in Humans and Large Language Models",
-    "authors": "Liam G. McCoy, Chase M Walton, Amy M Sullivan, Jeremy Richards, Richard Schwartzstein, Edward Krupat, Adam Rodman",
-    "url": "https://openreview.net/forum?id=AlWeq3MHdX"
+    "authors": "Liam G. McCoy, Chase M Walton, Amy M Sullivan, Jeremy Richards, Richard Schwartzstein, Edward Krupat, Adam Rodman"
   },
   {
     "track": "findings-poster",
     "title": "Modeling ICU Trajectories with Action-Conditioned World Models",
-    "authors": "Simon A. Lee, Jiahang Hank Sha, Soomin Chung, Kai Akamatsu, Jeffrey N Chiang",
-    "url": "https://openreview.net/forum?id=QAirZm8EJr"
+    "authors": "Simon A. Lee, Jiahang Hank Sha, Soomin Chung, Kai Akamatsu, Jeffrey N Chiang"
   },
   {
     "track": "findings-poster",
     "title": "Per-User History Beats Population Size When Scaling Wearable Health Models",
-    "authors": "Fahad Kamran, Sean Jewell, Megan R Ebers, Xi Zhang, Joseph Futoma",
-    "url": "https://openreview.net/forum?id=ILQy4Zf7np"
+    "authors": "Fahad Kamran, Sean Jewell, Megan R Ebers, Xi Zhang, Joseph Futoma"
   },
   {
     "track": "findings-poster",
     "title": "RRIMed: Recursive Reward Improvement in Medicine via Adversarial Meta-Prompt Evolution for Medical Foundation Models",
-    "authors": "Wei Dai, Qianchu Liu, Guanghui Qin, Tristan Naumann, Paul Pu Liang, Sheng Zhang",
-    "url": "https://openreview.net/forum?id=7gqNVB3HeT"
+    "authors": "Wei Dai, Qianchu Liu, Guanghui Qin, Tristan Naumann, Paul Pu Liang, Sheng Zhang"
   },
   {
     "track": "findings-poster",
     "title": "RSIMed: Scaling Medical Foundation Models beyond Limited Clinical Data via Retrieval-Grounded Self-Evolution",
-    "authors": "Wei Dai, Qianchu Liu, Guanghui Qin, Tristan Naumann, Sheng Zhang, Paul Pu Liang",
-    "url": "https://openreview.net/forum?id=5dvMW7zqfY"
+    "authors": "Wei Dai, Qianchu Liu, Guanghui Qin, Tristan Naumann, Sheng Zhang, Paul Pu Liang"
   },
   {
     "track": "findings-poster",
     "title": "Toward on-device foundation models for wearable PPG: characterizing latent health structure under compression",
-    "authors": "Megan R Ebers, Venla Lymysalo, Fahad Kamran, Sean Jewell, Xi Zhang, Joseph Futoma, Raphael Vallat",
-    "url": "https://openreview.net/forum?id=SydnfDKAmG"
+    "authors": "Megan R Ebers, Venla Lymysalo, Fahad Kamran, Sean Jewell, Xi Zhang, Joseph Futoma, Raphael Vallat"
   },
   {
     "track": "findings-poster",
     "title": "Cross-Hospital Regression with Tabular Foundation Models: Tacrolimus Trough Prediction and Predictive Uncertainty",
-    "authors": "David Pellow, Vince Kalmar, Anthony Dreher, Nicodemus Ong, Annabel Koivu, Mamatha Bhat, Rahul G Krishnan, Ashley Spann, Michael Brudno",
-    "url": "https://openreview.net/forum?id=Xwvj6mCkKY"
+    "authors": "David Pellow, Vince Kalmar, Anthony Dreher, Nicodemus Ong, Annabel Koivu, Mamatha Bhat, Rahul G Krishnan, Ashley Spann, Michael Brudno"
   },
   {
     "track": "findings-poster",
     "title": "VeriFact-Chart: EHR-Grounded Verification of AI-Generated Clinical Summaries at Production Scale",
-    "authors": "François Grolleau, Timothy Keyes, Bridget Lin, Brenna Li, Bobak Seddighzadeh, Rachel Lim, Stephen P. Ma, Suhana Bedi, Emma Sage, Juan M Banda, Connor O'Brien, Guillermo Lopez Garcia, Nikesh Kotecha, Philip Chung, Steven Christopher Bagley, Jonathan H Chen, Weihan Chu, Kameron C. Black, N. Lance Downing, Thomas Lew, Michael Gensheimer, Oluseyi Fayanju, Nabeel Rasheed, Sergios Gatidis, Sneha S. Jain",
-    "url": "https://openreview.net/forum?id=GwwXVqgPqo"
+    "authors": "François Grolleau, Timothy Keyes, Bridget Lin, Brenna Li, Bobak Seddighzadeh, Rachel Lim, Stephen P. Ma, Suhana Bedi, Emma Sage, Juan M Banda, Connor O'Brien, Guillermo Lopez Garcia, Nikesh Kotecha, Philip Chung, Steven Christopher Bagley, Jonathan H Chen, Weihan Chu, Kameron C. Black, N. Lance Downing, Thomas Lew, Michael Gensheimer, Oluseyi Fayanju, Nabeel Rasheed, Sergios Gatidis, Sneha S. Jain"
   },
   {
     "track": "findings-poster",
     "title": "Ask the Twin: Auditing Counterfactuals of Wearable World Models",
-    "authors": "Sean Jewell, Fahad Kamran, Megan R Ebers, Xi Zhang, Joseph Futoma",
-    "url": "https://openreview.net/forum?id=Skn2FlICIm"
+    "authors": "Sean Jewell, Fahad Kamran, Megan R Ebers, Xi Zhang, Joseph Futoma"
   },
   {
     "track": "findings-spotlight",
     "title": "Strategic Feature Selection",
-    "authors": "Jivat Neet Kaur, Pratik Patil, Divya M Shanmugam, Emma Pierson, Michael I. Jordan, Nika Haghtalab, Meena Jagadeesan, Ahmed Alaa, Serena Lutong Wang",
-    "url": "https://openreview.net/forum?id=LwLhXEkcYq"
+    "authors": "Jivat Neet Kaur, Pratik Patil, Divya M Shanmugam, Emma Pierson, Michael I. Jordan, Nika Haghtalab, Meena Jagadeesan, Ahmed Alaa, Serena Lutong Wang"
   },
   {
     "track": "findings-poster",
     "title": "When Do Richer EHR Graphs Help? Representation, Architecture, and Task",
-    "authors": "Ismail Hatim, Guillaume Lachaud, Yanlei DIAO, Benoît Gallix",
-    "url": "https://openreview.net/forum?id=ydjF30j3tQ"
+    "authors": "Ismail Hatim, Guillaume Lachaud, Yanlei DIAO, Benoît Gallix"
   },
   {
     "track": "findings-poster",
     "title": "Leakage-Safe Auditing of Attribution-Driven Data Curation in Medical Imaging",
-    "authors": "Malay Phadke, Akshay Gokhale",
-    "url": "https://openreview.net/forum?id=WN8TlhK8m2"
+    "authors": "Malay Phadke, Akshay Gokhale"
   },
   {
     "track": "findings-poster",
     "title": "Shortcut Checks for Saliency Maps",
-    "authors": "Brian Lerner, Pranav Manjunath, Timothy W DUNN",
-    "url": "https://openreview.net/forum?id=hJltWToVsV"
+    "authors": "Brian Lerner, Pranav Manjunath, Timothy W DUNN"
   },
   {
     "track": "findings-poster",
@@ -970,6 +950,22 @@
     "title": "Interpretable Machine Learning Approach for Identifying Characteristic Type 1 and Type 2 Diabetes Blood Sugar Patterns Through Continuous Glucose Monitor Data",
     "authors": "Faris Raza",
     "url": "https://openreview.net/forum?id=Rk7JFTMyIQ"
+  },
+  {
+    "track": "findings-poster",
+    "title": "Select-then-Knock: A Multi-Split Pipeline for High-Dimensional Biomarker Nomination",
+    "authors": "Ronen Nir, Gal Keinan"
+  },
+  {
+    "track": "findings-poster",
+    "title": "Hindsight Bias in Clinical Temporal Reasoning: How Future Data Exposure Affects Large Language Model Judgment",
+    "authors": "Misaki Matsuura, Sayantan Kumar, Ojas Kadam, Jeremy Weiss"
+  },
+  {
+    "track": "proceedings-poster",
+    "title": "Anchoring Clinical Events in Time: UID-Preserving Multimodal Reconstruction and Source-Grounded Adjudication",
+    "authors": "Sayantan Kumar, Nicholas Grimaldi, Jack Cummins, Jeremy Weiss",
+    "url": "https://openreview.net/forum?id=xojBBrof8p"
   },
   {
     "track": "demo",
